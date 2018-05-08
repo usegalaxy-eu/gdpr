@@ -34,6 +34,8 @@ This Privacy Statement only covers the Galaxy service provided by the Freiburg G
 
 We reserve the right to amend or correct this Privacy Statement at any time. The revised statement will be posted on the website and will only apply to data collected after the effective date of the revised statement.
 
+You can view all historical versions and changes to this privacy policy [on our GitHub](https://github.com/usegalaxy-eu/gdpr/commits/master/privacy-policy.md)
+
 # How to contact us
 
 In case you have any questions or concerns related to this Privacy Statement, please send us an email at [mailto:contact@usegalaxy.eu](contact@usegalaxy.eu)
