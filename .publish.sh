@@ -3,7 +3,7 @@ set -ex
 
 TMP_DIR=$(mktemp -d)
 git checkout master
-jekyll build -d $TMP_DIR
+bundler exec jekyll build -d $TMP_DIR
 git checkout gh-pages
 rm -rf *
 cp -Rv $TMP_DIR/. .
