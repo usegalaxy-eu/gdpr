@@ -1,0 +1,121 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+$break-mobile-s: 320px;
+$break-mobile-l: 425px;
+
+html, body {
+  height: 100%;
+}
+
+body {
+    font-size: 14px;
+}
+
+section {
+    padding: 40px 0;
+}
+
+#wrap {
+    min-height: 100%;
+}
+
+#main {
+    overflow: auto;
+    padding-bottom: 130px;
+
+    @media screen and (max-width: $break-mobile-s) {
+        padding-bottom: 185px;
+    }
+
+    @media screen and (max-width: $break-mobile-l) {
+        padding-bottom: 170px;
+    }
+}
+
+footer {
+    color: #777;
+    font-size: 85%;
+    position: relative;
+    margin-top: -90px;
+    height: 90px;
+    clear: both;
+    padding-top: 10px;
+
+    @media screen and (max-width: $break-mobile-s) {
+        margin-top: -185px;
+        height: 185px;
+    }
+
+    @media screen and (max-width: $break-mobile-l) {
+        margin-top: -170px;
+        height: 170px;
+    }
+}
+
+#maincontainer {
+    a {
+        color: #2882dc;
+        text-decoration: none;
+    }
+}
+
+.jumbotron {
+    p {
+        font-size: 14px;
+    }
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+ul.contact-info {
+    list-style-type: none;
+    margin-bottom: 10px;
+    padding-left: 0;
+}
+
+ul.contact-info li {
+    display: inline;
+    margin-right: 7px;
+}
+
+.contact-info {
+    .fa {
+        margin-right: 5px;
+        font-size: 15px;
+    }
+}
+
+.page-heading {
+    font-size: 30px;
+}
+
+.table {
+    tbody > tr > td,  {
+        border-top: none;
+    }
+    thead > tr > th {
+        border-bottom: none;
+    }
+}
+
+p {
+    img {
+        max-width: 100%;
+    }
+}
+
+.navbar {
+     border-radius: 0px;
+}
+
+.twitter-tweet {
+    margin: auto;
+    width: 400px !important;
+}
+
+@import "people";
+@import "404";
+@import "news";
+@import "galaxy_overrides";

@@ -1,3 +1,7 @@
+---
+layout: history
+---
+
 # Privacy Statement
 
 ## Definitions

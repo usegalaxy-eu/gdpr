@@ -1,4 +1,5 @@
 ---
+layout: history
 date: 2018-05-08 11:29:20+02:00
 author: Helena Rasche
 revision: 1
@@ -44,6 +45,7 @@ Job Data:
 id      | tool_id                                                                                        | tool_version | state | create_time
 --      | -------                                                                                        | ------------ | ----- | -----------
 2018626 | toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_plot_heatmap/deeptools_plot_heatmap/2.5.1.1.0 | 2.5.1.1.0    | ok    | 2017-10-22 09:44:24.077315
+{: .table.table-striped}
 
 Job Metric Data:
 
@@ -54,6 +56,7 @@ job_id  | plugin  | name            | value
 2018526 | core    | galaxy_slots    | 1.0000000
 2018526 | core    | start_epoch     | 1508592081.0000000
 2018526 | core    | end_epoch       | 1508592092.0000000
+{: .table.table-striped}
 
 Job Parameter Data:
 
@@ -65,9 +68,9 @@ job_id  | name             | value
 2018526 | cut_type_options | `{"cut_type_options": {"list": ["9"], "__current_case__": 0, "cut_element": "-f"}}`
 2018526 | dbkey            | `{"dbkey": "mm10"}`
 2018526 | complement       | `{"complement": ""}`
+{: .table.table-striped}
 
 
 ## Conclusion
 
 We have concluded that we have a Legitimate Interest in processing this data due to the ability of not just our organisation but the entire world to benefit from processing data in this way.
-
