@@ -25,5 +25,5 @@ git commit -m "Update site ($BUILD_NUMBER)
 
 $BUILD_URL"
 
-git push origin master
+git push origin gh-pages
 rm -rf $TMP_DIR
