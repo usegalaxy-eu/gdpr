@@ -6,6 +6,10 @@ layout: default
 
 For UseGalaxy.eu
 
-- [User rights under GDPR and how we meet them](./gdpr-rights.html)
 - [Privacy Policy](./privacy-policy.html)
+- [Terms of Service](./tos.html)
+
+## GDPR Documentation
+
+- [Your Rights Under the GDPR](./gdpr-rights.html)
 - [Legitimate Interest Analyses](./lia/)
