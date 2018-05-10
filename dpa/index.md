@@ -7,7 +7,7 @@ layout: default
 <table class="table table-striped table-responsive">
 	<thead>
 		<tr>
-			{% for row in site.data.pii.meta.headers %}
+			{% for row in site.data.dpa_register.meta.headers %}
 			<th>
 				{{ row.title }}
 				<div style='font-weight: normal'>
@@ -20,7 +20,7 @@ layout: default
 		</tr>
 	</thead>
 	<tbody>
-		{% for row in site.data.pii.data %}
+		{% for row in site.data.dpa_register.data %}
 		<tr>
 			<td>{{ row.types }}</td>
 			<td>{{ row.categories }}</td>
