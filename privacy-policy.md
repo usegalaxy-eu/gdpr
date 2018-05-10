@@ -46,4 +46,4 @@ We reserve the right to amend or correct this Privacy Statement at any time. The
 
 ## How to Contact Us
 
-In case you have any questions or concerns related to this Privacy Statement, please send us an email at [mailto:contact@usegalaxy.eu](contact@usegalaxy.eu)
+In case you have any questions or concerns related to this Privacy Statement, please send us an email at [contact@usegalaxy.eu](mailto:contact@usegalaxy.eu)
