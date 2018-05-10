@@ -1,8 +1,8 @@
 ---
 layout: history
+published_effective: true
+title: Terms of Service
 ---
-
-# Terms of Service
 
 ## Definitions
 

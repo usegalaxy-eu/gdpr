@@ -1,9 +1,8 @@
 ---
 layout: history
 published_effective: true
+title: Privacy Policy
 ---
-
-# Privacy Statement
 
 ## Definitions
 

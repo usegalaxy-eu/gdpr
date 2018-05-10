@@ -2,10 +2,8 @@
 layout: history
 date: 2018-05-08 11:29:20+02:00
 author: Helena Rasche
-revision: 1
+title: Galactic Radio Telescope (GRT) Legitimate Interest Assessment
 ---
-
-# Galactic Radio Telescope (GRT) Legitimate Interest Assessment
 
 ## Legitimate Interests
 

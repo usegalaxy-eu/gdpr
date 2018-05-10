@@ -1,8 +1,7 @@
 ---
 layout: history
+title: User Rights under the GDPR
 ---
-
-# User Rights under the GDPR
 
 And how to exercise them in the context of the Galaxy Service provided by the Galaxy Freiburg Team and the European Galaxy Community.
 

@@ -1,8 +1,7 @@
 ---
 layout: default
+title: Personal Information and Access
 ---
-
-# Personal Information and Access
 
 <table class="table table-striped table-responsive">
 	<thead>

@@ -1,8 +1,7 @@
 ---
 layout: default
+title: GDPR Compliance Documentation
 ---
-
-# GDPR Compliance Documentation
 
 For UseGalaxy.eu
 
