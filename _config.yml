@@ -17,7 +17,7 @@ title: "GDPR"
 description: European Galaxy General Data Protection Regulation Documentation
 email: contact+gdpr@usegalaxy.eu
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://usegalaxy-eu.github.io/gdpr/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://usegalaxy-eu.github.io/gdpr" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: galaxyproject
 github_username:  usegalaxy-eu
 
