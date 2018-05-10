@@ -16,11 +16,24 @@
         <td>{{ page.git.total_commits }}</td>
       </tr>
       <tr>
+        {% if page.published_effective %}
+        <td>Effective</td>
+        {% else %}
+        <td>Published</td>
+        {% endif %}
+        <td>{{ page.git.last_commit.commit_date}}</td>
+      </tr>
+      <tr>
         <td>History</td>
         <td>
-          <a href="https://github.com/usegalaxy-eu/gdpr/commits/master/{{ page.path }}">
-              github.com:{{ page.path }}
-          </a>
+          <ul>
+          <li><a href="https://github.com/usegalaxy-eu/gdpr/commit/{{ page.git.last_commit.long_sha }}">
+              Most Recent Changes
+          </a></li>
+          <li><a href="https://github.com/usegalaxy-eu/gdpr/commits/master/{{ page.path }}">
+              All Changes
+          </a></li>
+          </ul>
         </td>
       </tr>
     </tbody>

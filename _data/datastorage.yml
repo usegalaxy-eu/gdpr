@@ -1,0 +1,60 @@
+meta:
+    headers:
+        - title: Datastore
+        - title: contents
+        - title: Access
+        - title: PII
+data:
+    - datastore: Primary Galaxy DB (Postgresql)
+      contents: |
+        All user information, job data
+      access:
+        - BG
+        - SJ
+        - HR
+      pii: true
+
+    - datastore: Galactic Radio Telescope
+      contents: |
+        Anonymous job data
+      access:
+        - BG
+        - SJ
+        - HR
+        - NC
+        - MC
+      pii: false
+
+    - datastore: Apollo
+      contents: |
+        User-uploaded genomic data. These datasets include metadata files made
+        available to the user to improve their user experience that contain
+        Email addresses
+      access:
+        - BG
+        - SJ
+        - HR
+      pii: true
+
+    - datastore: NFS Servers (sn01, sn02, sn03, isi.ifr)
+      contents: |
+        User galaxy dataset store. Datasets themselves are not able to be
+        tied to a user without data stored in the Galaxy database.
+
+        Some directories on the file server include user email addresses.
+
+        This provides the file storage for Apollo above.
+      access:
+        - BG
+        - SJ
+        - HR
+      pii: true
+
+    - datastore: Tape Backups
+      contents: |
+        We are requesting the deletion of user data from our tape backups,
+        however the data remains on tape until it is overwritten at some point
+        in the future.
+      access:
+        - SJ
+      pii: true

@@ -6,6 +6,8 @@ layout: default
 
 For UseGalaxy.eu
 
+## ToS & PP
+
 - [Privacy Policy](./privacy-policy.html)
 - [Terms of Service](./tos.html)
 
@@ -13,3 +15,4 @@ For UseGalaxy.eu
 
 - [Your Rights Under the GDPR](./gdpr-rights.html)
 - [Legitimate Interest Analyses](./lia/)
+- [Data Storage and Access](./gdpr-docs.html)

@@ -6,48 +6,58 @@ layout: history
 
 ## Definitions
 
-European Galaxy Sites: any one of the Galaxy sites provided to you by the Freiburg Galaxy Team and the European Galaxy Project, including but not limited to:
+European Galaxy Sites or "the Galaxy Service": any one of the Galaxy sites provided to you by the Freiburg Galaxy Team and the European Galaxy Project, including but not limited to:
 
 - https://usegalaxy.eu
 - https://hicexplorer.usegalaxy.eu
 - https://metagenomics.usegalaxy.eu
+- https://galaxy.uni-freiburg.de
 
 UseGalaxy Site
 
 - https://usegalaxy-eu.github.io
 
-## Terms
+## Use of Service.
 
-By accessing any of the European Galaxy Sites or the UseGalaxy Site, you are agreeing to be bound by these terms of service, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws. If you do not agree with any of these terms, you are prohibited from using or accessing this site.
+The European Galaxy Sites and UseGalaxy Site are a free, public, Internet
+accessible resource (the "Service"). Data transfer is encrypted unless you
+choose to use unencrypted FTP access. Data storage is not encrypted. If there
+are restrictions on the way your research data can be stored and used, please
+consult your local institutional review board or the project principal
+investigator before uploading it to any public site, including this Service. If
+you have protected data, large data storage requirements, or short deadlines
+you are encouraged to set up your own local Galaxy instance and not use this
+Service. Your access to the service may be revoked at any time for reasons
+deemed necessary by the operators of the Service.
 
-## Use License
+## Accounts and Service Limitations
 
-Materials on the UseGalaxy Site site are made available to you under the terms of the [license](https://usegalaxy-eu.github.io/LICENSE.txt)
-
-The European Galaxy Sites are made available to you under the following terms:
-
-- The source code running the site is made [publicly available](https://github.com/galaxyproject/galaxy/) and is available under its associated license.
-- The site is made available to you under the same terms as the source code license, with the same rights.
+You may choose to register an account with the Service. Your registration data
+is primarily used so you may persistently store data on the Service and use
+advanced Galaxy features such as sharing and workflows. The operators of the
+Service will not provide your registration data to any third party unless
+required to do so by law. Your access to the Service is provided under the
+condition that you abide by any published quotas on data storage, job
+submissions, or any other limitations placed on the public Service. Attempts to
+subvert these limits by creating multiple accounts or through any other method
+may result in termination of all associated accounts.
 
 ## Disclaimer
 
-The materials on Freiburg Galaxy Team's website are provided on an 'as is' basis. Freiburg Galaxy Team makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties including, without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights.
-Further, Freiburg Galaxy Team does not warrant or make any representations concerning the accuracy, likely results, or reliability of the use of the materials on its website or otherwise relating to such materials or on any sites linked to this site.
+The Service is provided to you on an "AS IS" BASIS and WITHOUT WARRANTY, either
+express or implied, including, without limitation, the warranties of
+non-infringement, merchantability or fitness for a particular purpose. THE
+ENTIRE RISK AS TO THE QUALITY OF THE SERVICE IS WITH YOU. This DISCLAIMER OF
+WARRANTY constitutes an essential part of this service agreement.
 
-## Limitations
+## Limitation of Liability
 
-In no event shall Freiburg Galaxy Team or its suppliers be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption) arising out of the use or inability to use the materials on Freiburg Galaxy Team's website, even if Freiburg Galaxy Team or a Freiburg Galaxy Team authorized representative has been notified orally or in writing of the possibility of such damage. Because some jurisdictions do not allow limitations on implied warranties, or limitations of liability for consequential or incidental damages, these limitations may not apply to you.
-
-## Accuracy of materials
-
-The materials appearing on Freiburg Galaxy Team's website could include technical, typographical, or photographic errors. Freiburg Galaxy Team does not warrant that any of the materials on its website are accurate, complete or current. Freiburg Galaxy Team may make changes to the materials contained on its website at any time without notice. However Freiburg Galaxy Team does not make any commitment to update the materials.
-
-## Links
-
-Freiburg Galaxy Team has not reviewed all of the sites linked to its website and is not responsible for the contents of any such linked site. The inclusion of any link does not imply endorsement by Freiburg Galaxy Team of the site. Use of any such linked website is at the user's own risk.
-
-## Governing Law
-
-These terms and conditions are governed by and construed in accordance with the laws of Germany and the European Union you irrevocably submit to the exclusive jurisdiction of the courts in that State or location.
-
-This policy is effective as of 2018-05-10
+Under no circumstances and under no legal theory, whether in tort (including
+negligence), contract, or otherwise, shall The Pennsylvania State University or
+any other entity which provides resources for the Service be liable to anyone
+for any indirect, special, incidental, or consequential damages of any
+character arising as a result of the use of this Service including, without
+limitation, damages for loss of goodwill, work stoppage, computer failure or
+malfunction, or any and all other commercial damages or losses. This limitation
+of liability shall not apply to the extent applicable law prohibits such
+limitation.

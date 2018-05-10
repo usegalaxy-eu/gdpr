@@ -1,0 +1,88 @@
+meta:
+    headers:
+        - title: Data
+          comment: What data are you collecting?
+        - title: Source
+          comment: Where was the data obtained?
+        - title: Reason
+          comment: How was this data collected?
+        - title: Handling
+          comment: How we will store the data, how it will be processed, and who has access to it.
+        - title: Access
+          comment: Who has access to your data
+        - title: Disposal
+          comment: When is this data destroyed
+        - title: Consent Obtained
+        - title: Subject over 13
+        - title: Mission Critical Data
+        - title: Personal Data
+        - title: Sensitive Personal Data
+data:
+    - data: Name and Email Address
+      source: Registration Form
+      reason: Required for processing your data and contacting you in event of an error
+      handling: We store the data securely in our database which only the UseGalaxy administrators have access to.
+      access:
+        - BG
+        - SJ
+        - HR
+      disposal: Upon Request
+      consent: true
+      over_13: true
+      mission_crit: true
+      pd: true
+      spd: false
+
+    - data: IP Address
+      source: Server Logs
+      reason: Required for debugging system issues
+      handling: We store server logs for up to 24 hours, on disk, never backed up.
+      access:
+        - BG
+        - SJ
+        - HR
+      disposal: After 24 hours
+      consent: false
+      over_13: true
+      mission_crit: true
+      pd: true
+      spd: false
+
+    - data: Job Execution Data (parameters, datasets provided)
+      source: Use of the service
+      reason: Generated as a result of your use of the system
+      handling: |
+          We store the data securely in our database which only the
+          UseGalaxy.eu administrators have access to (BG, SJ, HR)
+
+          Additionaly, pseudonymized data is shared publicly for analysis by
+          the Galaxy Project in order to optimise job scheduling and memory
+          allocation, allowing us to run more jobs per node than we used to.
+      access:
+        - BG
+        - SJ
+        - HR
+      disposal: Never
+      consent: false
+      over_13: true
+      mission_crit: true
+      pd: false
+      spd: false
+
+    - data: User Uploaded Datasets
+      source: Use of the service
+      reason: Generated as a result of your use of the system
+      handling: |
+        Stored permanently until you request deletion. You and the Galaxy
+        administrators have access to this data. The Galaxy administrators
+        will not access your data except in order to resolve bugs with you.
+      access:
+        - BG
+        - SJ
+        - HR
+      disposal: Never / On Request
+      consent: true
+      over_13: true
+      mission_crit: true
+      pd: true
+      spd: false

@@ -1,16 +1,35 @@
-<div class="navbar">
+<nav class="navbar navbar-default">
   <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <div class="navbar-brand">
         <img alt="galaxy eu logo" src="{{ "/assets/media/galaxy-eu-logo.svg" | absolute_url }}" style="height: 20px"/>
       </div>
-
       <a class="navbar-brand" href="{{ "/" | absolute_url }}" style="padding-left: 6px">
         {{ site.title | escape }}
       </a>
     </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+
+{% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
+{% for crumb in crumbs offset: 1 %}
+  
+  {% if forloop.last %}
+  <li class="active"><a href="#">{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</a></li>
+  {% else %}
+    {% assign crumb_limit = forloop.index | plus: 1 %}
+    <li><a href="{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">
+      {{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}
+	</a></li>
+  {% endif %}
+{% endfor %}
+
+
+
+      </ul>
+    </div>
   </div>
-</div>
-<div class="container">
-{% include crumbs.html %}
-</div>
+</nav>

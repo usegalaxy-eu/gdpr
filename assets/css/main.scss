@@ -115,6 +115,11 @@ p {
     width: 400px !important;
 }
 
+.table > thead > tr > th {
+	vertical-align: top;
+}
+
+
 @import "people";
 @import "404";
 @import "news";
