@@ -33,6 +33,20 @@ data:
       pd: true
       spd: false
 
+    - data: Galaxy User Database Backups
+      source: Galaxy User Database
+      reason: Required for restoring services in event of an emergency
+      handling: Backups are stored unencrypted on disk. Access to the server is highly controlled.
+      access:
+        - SJ
+        - HR
+      disposal: We store backups for 7 days maximum
+      consent: false
+      over_13: true
+      mission_crit: true
+      pd: true
+      spd: false
+
     - data: IP Address
       source: Server Logs
       reason: Required for debugging system issues
@@ -82,6 +96,20 @@ data:
         - HR
       disposal: Never / On Request
       consent: true
+      over_13: true
+      mission_crit: true
+      pd: true
+      spd: false
+
+    - data: User Uploaded Dataset Backups
+      source: Use of the service
+      reason: Generated as a result of your use of the system
+      handling: We do not backup user data. We used to backup old data but have requested the deletion
+      access:
+        - SJ
+        - UTA
+      disposal: n/a
+      consent: false
       over_13: true
       mission_crit: true
       pd: true
