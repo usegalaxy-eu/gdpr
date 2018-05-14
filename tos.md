@@ -53,11 +53,11 @@ WARRANTY constitutes an essential part of this service agreement.
 ## Limitation of Liability
 
 Under no circumstances and under no legal theory, whether in tort (including
-negligence), contract, or otherwise, shall The Pennsylvania State University or
-any other entity which provides resources for the Service be liable to anyone
-for any indirect, special, incidental, or consequential damages of any
-character arising as a result of the use of this Service including, without
-limitation, damages for loss of goodwill, work stoppage, computer failure or
-malfunction, or any and all other commercial damages or losses. This limitation
-of liability shall not apply to the extent applicable law prohibits such
-limitation.
+negligence), contract, or otherwise, shall Albert-Ludwigs-Universität, Freiburg
+im Breisgau or any other entity which provides resources for the Service be
+liable to anyone for any indirect, special, incidental, or consequential
+damages of any character arising as a result of the use of this Service
+including, without limitation, damages for loss of goodwill, work stoppage,
+computer failure or malfunction, or any and all other commercial damages or
+losses. This limitation of liability shall not apply to the extent applicable
+law prohibits such limitation.
