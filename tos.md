@@ -30,6 +30,13 @@ you are encouraged to set up your own local Galaxy instance and not use this
 Service. Your access to the service may be revoked at any time for reasons
 deemed necessary by the operators of the Service.
 
+You acknowledge that you are responsible for compliance of all of your data
+processing activities carried out on the Galaxy Service with applicable laws
+and regulations of the Federal Republic of Germany, the European Union as well
+as any laws or regulations of other legislations or any other restrictions that
+might be applicable due to the provenance, intended use, legal ownership of or
+any licensing or other legal restrictions imposed on the data being processed.
+
 You are strictly prohibited from making use of the Galaxy Service for the
 storage or processing of any Personal Data or Sensitive Personal Data as
 defined by the European Union's General Data Protection Regulation (GDPR),
