@@ -30,6 +30,11 @@ you are encouraged to set up your own local Galaxy instance and not use this
 Service. Your access to the service may be revoked at any time for reasons
 deemed necessary by the operators of the Service.
 
+You are strictly prohibited from making use of the Galaxy Service for the
+storage or processing of any Personal Data or Sensitive Personal Data as
+defined by the European Union's General Data Protection Regulation (GDPR),
+including but not limited to potentially personally identifying medical data.
+
 ## Accounts and Service Limitations
 
 You may choose to register an account with the Service. Your registration data
