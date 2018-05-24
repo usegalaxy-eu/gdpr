@@ -5,6 +5,8 @@ title: Data Processing Activity (DPA) Register
 
 This table inspired by the [EC's Factsheet](https://ec.europa.eu/commission/sites/beta-political/files/data-protection-factsheet-business-7-steps_en.pdf)
 
+{% include contact.html %}
+
 <table class="table table-striped table-responsive">
 	<thead>
 		<tr>

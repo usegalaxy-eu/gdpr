@@ -16,10 +16,17 @@ meta:
 
 
 data:
-    - types: Contact details of UseGalaxy.eu users
-      categories: Customers
+    - types: Email address of UseGalaxy.eu users
+      categories: End users
       purpose: Contacting end users in case of privacy breaches or changes to privacy policies
-      recipients: UseGalaxy.eu administrators
+      recipients: Administrators of the UseGalaxy.eu service
+      storage_period: Until user requests deletion
+      security: Postgresql DB with highly restricted and audited access
+      exported: false
+    - types: Chosen name provided by UseGalaxy.eu users
+      categories: End users
+      purpose: Referring to users per their preference in the user interface. Additionally used to refer to user when they choose to share their workflows or data publicly.
+      recipients: Administrators of the UseGalaxy.eu service, made public only when the user requests to publish a history/workflow/etc publicly.
       storage_period: Until user requests deletion
       security: Postgresql DB with highly restricted and audited access
       exported: false

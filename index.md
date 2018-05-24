@@ -16,3 +16,7 @@ For UseGalaxy.eu
 - [Legitimate Interest Analyses](./lia/)
 - [Data Storage and Access](./gdpr-docs.html)
 - [Data Processing Activities Register](./dpa/)
+
+## Contact
+
+{% include contact.html %}
