@@ -18,10 +18,10 @@ Implies that we are OK to analyse user data (without emails / without user ident
 > longer identifiable
 
 - GRT data doesn't include user IDs.
-- https://stats.usegalaxy.eu/d/000000012/galaxy-user-statistics?refresh=15m&orgId=1
+- [Stats: User Page](https://stats.usegalaxy.eu/d/000000012/galaxy-user-statistics?refresh=15m&orgId=1)
   includes user IDs, but these are extremely hard to attribute to an
   identifiable person. You must identify probably users of a tool (we have
-  >1.2k users) based on their research or some other property. And then there
+  over 1.2k users) based on their research or some other property. And then there
   is nothing you can do with that ID since it isn't published anywhere else.
 
 > The application of pseudonymisation to personal data can reduce the risks to
@@ -285,40 +285,57 @@ are we doing this well enough in the data stuff?
 
 ugh OIDC.
 
-(a) the identity and the contact details of the controller and, where applicable, of the controller's representative;
-(b) the contact details of the data protection officer, where applicable;
-(c) the purposes of the processing for which the personal data are intended as well as the legal basis for the processing;
-(d) the categories of personal data concerned;
-(e) the recipients or categories of recipients of the personal data, if any;
-(f) where applicable, that the controller intends to transfer personal data to a recipient in a third country or international
-organisation and the existence or absence of an adequacy decision by the Commission, or in the case of
-transfers referred to in Article 46 or 47, or the second subparagraph of Article 49(1), reference to the appropriate or
-suitable safeguards and the means to obtain a copy of them or where they have been made available
+> (a) the identity and the contact details of the controller and, where applicable, of the controller's representative;
+>
+> (b) the contact details of the data protection officer, where applicable;
+>
+> (c) the purposes of the processing for which the personal data are intended as well as the legal basis for the processing;
+>
+> (d) the categories of personal data concerned;
+>
+> (e) the recipients or categories of recipients of the personal data, if any;
+>
+> (f) where applicable, that the controller intends to transfer personal data to a recipient in a third country or international
+> organisation and the existence or absence of an adequacy decision by the Commission, or in the case of
+> transfers referred to in Article 46 or 47, or the second subparagraph of Article 49(1), reference to the appropriate or
+> suitable safeguards and the means to obtain a copy of them or where they have been made available
 
 
-2. In addition to the information referred to in paragraph 1, the controller shall provide the data subject with the
-following information necessary to ensure fair and transparent processing in respect of the data subject:
-(a) the period for which the personal data will be stored, or if that is not possible, the criteria used to determine that period;
-(b) where the processing is based on point (f) of Article 6(1), the legitimate interests pursued by the controller or by a third party;
-(c) the existence of the right to request from the controller access to and rectification or erasure of personal data or restriction of processing concerning the data subject and to object to processing as well as the right to data portability;
-(d) where processing is based on point (a) of Article 6(1) or point (a) of Article 9(2), the existence of the right to withdraw consent at any time, without affecting the lawfulness of processing based on consent before its withdrawal;
-(e) the right to lodge a complaint with a supervisory authority;
-(f) from which source the personal data originate, and if applicable, whether it came from publicly accessible sources;
-(g) the existence of automated decision-making, including profiling, referred to in Article 22(1) and (4) and, at least in those cases, meaningful information about the log
+> 2 In addition to the information referred to in paragraph 1, the controller shall provide the data subject with the
+> following information necessary to ensure fair and transparent processing in respect of the data subject:
+> > (a) the period for which the personal data will be stored, or if that is not possible, the criteria used to determine that period;
+>
+> > (b) where the processing is based on point (f) of Article 6(1), the legitimate interests pursued by the controller or by a third party;
+>
+> > (c) the existence of the right to request from the controller access to and rectification or erasure of personal data or restriction of processing concerning the data subject and to object to processing as well as the right to data portability;
+>
+> > (d) where processing is based on point (a) of Article 6(1) or point (a) of Article 9(2), the existence of the right to withdraw consent at any time, without affecting the lawfulness of processing based on consent before its withdrawal;
+>
+> > (e) the right to lodge a complaint with a supervisory authority;
+>
+> > (f) from which source the personal data originate, and if applicable, whether it came from publicly accessible sources;
+>
+> > (g) the existence of automated decision-making, including profiling, referred to in Article 22(1) and (4) and, at least in those cases, meaningful information about the log
+
+Need to check this.
+
+> 3 The controller shall provide the information referred to in paragraphs 1 and 2:
+> > (a) within a reasonable period after obtaining the personal data, but at the latest within one month, having regard to the specific circumstances in which the personal data are processed;
+>
+> > (b) if the personal data are to be used for communication with the data subject, at the latest at the time of the first communication to that data subject; or
+>
+> > (c) if a disclosure to another recipient is envisaged, at the latest when the personal data are first disclosed. 
+
+Need to check this.
 
 
-3. The controller shall provide the information referred to in paragraphs 1 and 2:
-(a) within a reasonable period after obtaining the personal data, but at the latest within one month, having regard to the specific circumstances in which the personal data are processed;
-(b) if the personal data are to be used for communication with the data subject, at the latest at the time of the first communication to that data subject; or
-(c) if a disclosure to another recipient is envisaged, at the latest when the personal data are first disclosed. 
-
-
-
-
-> > Article 37(1) The controller and the processor shall designate a data protection officer in any case where:
-> (a) the processing is carried out by a public authority or body, except for courts acting in their judicial capacity;
-> (b) the core activities of the controller or the processor consist of processing operations which, by virtue of their nature, their scope and/or their purposes, require regular and systematic monitoring of data subjects on a large scale;or 
-> (c) the core activities of the controller or the processor consist of processing on a large scale of special categories of data pursuant to Article 9 and personal data relating to criminal convictions and offences referred to in Article 10
+> Article 37(1) The controller and the processor shall designate a data protection officer in any case where:
+>
+> > (a) the processing is carried out by a public authority or body, except for courts acting in their judicial capacity;
+>
+> > (b) the core activities of the controller or the processor consist of processing operations which, by virtue of their nature, their scope and/or their purposes, require regular and systematic monitoring of data subjects on a large scale;or 
+>
+> > (c) the core activities of the controller or the processor consist of processing on a large scale of special categories of data pursuant to Article 9 and personal data relating to criminal convictions and offences referred to in Article 10
 
 I interpret this to mean that we do not need a DPO:
 - We are not a public authority.
