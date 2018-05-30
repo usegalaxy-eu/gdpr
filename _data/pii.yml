@@ -86,3 +86,37 @@ data:
       mission_crit: true
       pd: true
       spd: false
+
+    - data: Your name, email, and institution
+      source: Quota Increase form submission
+      reason: Generated as a result of your submission of the form
+      handling: |
+        Documents are access controlled and limited to a small number of people specified by email address, no link-based access is used.
+      access:
+        - HR
+        - BG
+        - AE
+        - BB
+      disposal: Never / On request
+      consent: n/a
+      over_13: true
+      mission_crit: true
+      pd: true
+      spd: false
+
+    - data: Your name, email, and institution. Emails of training participants
+      source: Training Infrastructure as a Service form submission
+      reason: Generated as a result of your submission of the form
+      handling: |
+        Documents are access controlled and limited to a small number of people specified by email address, no link-based access is used.
+      access:
+        - HR
+        - BG
+        - AE
+        - BB
+      disposal: Never / On request
+      consent: n/a
+      over_13: true
+      mission_crit: true
+      pd: true
+      spd: false

@@ -58,3 +58,13 @@ data:
       access:
         - SJ
       pii: true
+
+    - datastore: Google Drive
+      contents: |
+        Quota increase requests + TIaaS Requests
+      access:
+        - HR
+        - BG
+        - AE
+        - BB
+      pii: true
