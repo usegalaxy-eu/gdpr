@@ -18,6 +18,26 @@ title: GDPR Questions
 
 Author: Jan Leendertse
 
+## About „Personal Information and Access“
+
+What was the reason to publish that?
+
+Why are the people announed, who have access, instead of indicating the functions?
+
+Was does „Subject over 13“ mean?
+
+Why was the perspective set the way „What data are you collecting“?
+
+The „data storage location“ *Google Drive* is problematic.
+
+What is the platform used for „registration form“?
+
+„Job execution data“ are stored anonymously without deletion. Check if this is in contradiction to other assertions.
+
+## About „data storage Locations“
+
+The system name is listed, but not the service provider and the place of the machines. Most obvious is this for *Google Drive*.
+
 ## Data itself
 
 ### Data collected
