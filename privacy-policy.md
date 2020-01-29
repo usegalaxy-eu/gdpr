@@ -17,6 +17,12 @@ UseGalaxy Site
 
 - https://usegalaxy-eu.github.io
 
+<!--There is no data protection related disclaimer on that site.
+
+According the privacy statement GitHub is located in San Francisco. Do we have a *agreement for contract data processing* with GitHub?
+
+It is possible to apply for such an agreement at https://help.github.com/en/github/setting-up-and-managing-organizations-and-teams/entering-a-data-protection-agreement-with-github-for-gdpr-compliance.-->
+
 ## Introduction
 
 The Galaxy Freiburg Team is aware the protection of your privacy is important when using our services European Galaxy Sites or UseGalaxy Site. We provide this statement to explain our information practices and the choices you can make about the way your information is collected and used. The amount and type of information received by us depends on how you use our website.

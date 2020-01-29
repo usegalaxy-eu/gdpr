@@ -24,7 +24,7 @@ What was the reason to publish that?
 
 Why are the people announed, who have access, instead of indicating the functions?
 
-Was does „Subject over 13“ mean?
+What does „Subject over 13“ mean? Guess: This belongs the Github regulation to not accept customers below the age of 13.
 
 Why was the perspective set the way „What data are you collecting“?
 
@@ -34,9 +34,23 @@ What is the platform used for „registration form“?
 
 „Job execution data“ are stored anonymously without deletion. Check if this is in contradiction to other assertions.
 
+„Job execution data“ is pushed to other partners of Galaxy. This is probably less critical, but I guess a system of *order processing addendas* are required.
+
+Where does the Grafana stats site run? (Guess: computer center RZ)
+
+For the site https://usegalaxy-eu.github.io, either the addendum of GitHub must be signed, or the website should be moved to the premises of the computer center.
+
 ## About „data storage Locations“
 
 The system name is listed, but not the service provider and the place of the machines. Most obvious is this for *Google Drive*.
+
+To be checked:
+
+- location of „Galaxy Radio Telescope“
+- „Apollo“ is stored at computer center, but probably an ADV is needed for the customers (organisations) of Galaxy
+- „Tape backups“: Is the TSM system in the computer center meant?
+
+What about the analysis of the training feedback forms? Where does that happen?
 
 ## Data itself
 
@@ -75,9 +89,8 @@ Which data are used by Galaxy?
 
 ### Data sharing with third parties
 
-- no sharing with third parties
-
-<!--Is that true?-->
+- GoogleDrive
+- GitHub pages
 
 ### Scope
 
