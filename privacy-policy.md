@@ -26,24 +26,14 @@ datenschutzbeauftragter@uni-freiburg.de
 
 ## Scope
 
-European Galaxy Sites or "the Galaxy Service": any one of the Galaxy sites provided to you by the Freiburg Galaxy Team and the European Galaxy Project, including but not limited to:
+The services include European Galaxy Sites or "the Galaxy Service": any one of the Galaxy sites provided to you by the Freiburg Galaxy Team and the European Galaxy Project under the domain `usegalaxy.eu` and the sub-domains [list of subdomains derived from zone file].
 
-<!--This kind of softing the limitation won't work. The scope must be clear and definitive.-->
+The Freiburg Galaxy Team cooperatates with sub-contractors. Order processing contracts are signed with:
 
-- https://usegalaxy.eu
-- https://hicexplorer.usegalaxy.eu
-- https://metagenomics.usegalaxy.eu
-- https://galaxy.uni-freiburg.de
+- GitHub Inc.
+- [list of de.NBI partners]
+- [list of Galaxy partners] <!--if applicable-->
 
-UseGalaxy Site
-
-- https://usegalaxy-eu.github.io
-
-<!--There is no data protection related disclaimer on that site.
-
-According the privacy statement GitHub is located in San Francisco. Do we have a *agreement for contract data processing* with GitHub?
-
-It is possible to apply for such an agreement at https://help.github.com/en/github/setting-up-and-managing-organizations-and-teams/entering-a-data-protection-agreement-with-github-for-gdpr-compliance.-->
 
 ## Introduction
 
@@ -51,7 +41,7 @@ The Galaxy Freiburg Team is aware the protection of your privacy is important wh
 
 ## Information collected and use of information
 
-During normal usage of our services we do not collect information that will personally identify you. Our webservers only store information such as the Referrer (where you came to us from), pages that you access, and dates of your visit. We may use this information in anonymised aggregates in order to generate usage statistics and to improve the usefulness of our services. All of this data is discarded after 24 hours.
+During normal usage of our services we do not collect information that will personally identify you. Our webservers only store information such as the Referrer (where you came to us from), pages that you access, and dates of your visit. We may use this information in anonymised aggregates in order to generate usage statistics and to improve the usefulness of our services. The data related to people is discarded after 24 hours.
 
 <!--Contradiction to assertion that „job execution data“ are stored permanentnly. Note: Jobs do run on completely different systems.-->
 
@@ -86,6 +76,7 @@ For the European Galaxy Sites you can see all of the information we have stored 
 <!-- The data are deleted as soon as they are no longer needed to achieve the purpose for which they were collected. In the case of data collected to make the website available, this is the case at the end of the relevant session. The data retained in log files are deleted after seven days. -->
 
 <!-- Do you have a retention policy? Should be considered, because the deletion of no longer used data is a crucial part of the GDPR-->
+
 ## Cookies
 
 A cookie is a unique identifier given to a web browser by a web server. Each time the browser requests a page from the server, this identifier is sent back. The Galaxy service provided uses cookies to identify users/computers in order to maintain user sessions (e.g. to provide/maintain analysis results while you browse the website). Usage of cookies is in no way linked to any personally identifiable information about individual users. The information is also not shared with any third party. Unless you specifically tell us, we will never know who you are, even if we do assign a cookie to your computer. Most browsers are set to automatically accept cookies. If you prefer not to receive cookies, you may set your browser to warn you before accepting cookies or you may also refuse all cookies by turning them off in your browser. However, please be aware that in case of not accepting cookies, the functionality of our website is limited.
@@ -100,7 +91,7 @@ The recipient of the information contained in the cookies is exclusively the aut
 
 ## Links to Other Websites
 
-This Privacy Statement only covers the Galaxy service provided by the Freiburg Galaxy Team. Links within this website to other websites are not covered by this statement. Please be aware that linked websites could store information in a way which does not comply with this statement, as soon as these websites are accessed. We cannot accept any responsibility for the collection, processing, use, and passing on of information in such cases.
+This Privacy Statement only covers the Galaxy service provided by the Freiburg Galaxy Team. Links within this website to other websites <!--what about the mashups and the independent instances?-->are not covered by this statement. Please be aware that linked websites could store information in a way which does not comply with this statement, as soon as these websites are accessed. We cannot accept any responsibility for the collection, processing, use, and passing on of information in such cases.
 
 ## Changes
 
