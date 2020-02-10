@@ -20,23 +20,28 @@ Author: Jan Leendertse
 
 ## About „Personal Information and Access“
 
-What was the reason to publish that?
+The scope must be defined precisely. The quote „including but not limited to“ is problematic.
 
 Why are the people announed, who have access, instead of indicating the functions?
 
-What does „Subject over 13“ mean? Guess: This belongs the Github regulation to not accept customers below the age of 13.
+What does „Subject over 13“ mean?
+:   Guess: This belongs the Github regulation to not accept customers below the age of 13.
 
 Why was the perspective set the way „What data are you collecting“?
+:   I find the personal addressing a bit puzzling, especially because this is the only place.
 
 The „data storage location“ *Google Drive* is problematic.
+:   It should be found another solution, because I don't think that it is possible to make *GoogleDrive* compliant, even as business account.
 
 What is the platform used for „registration form“?
+:   Platform hosted in the computer center. The registration form is built as JavaScript code provided from machines in the computer center.
 
 „Job execution data“ are stored anonymously without deletion. Check if this is in contradiction to other assertions.
 
 „Job execution data“ is pushed to other partners of Galaxy. This is probably less critical, but I guess a system of *order processing addendas* are required.
 
-Where does the Grafana stats site run? (Guess: computer center RZ)
+Where does the Grafana stats site run? (Guess: computer center RZ)?
+:   According [notes](notes.md) GRT processes user IDs. The efforts to depersonalize such an ID is high, yet feasible. It should be possible to
 
 For the site https://usegalaxy-eu.github.io, either the addendum of GitHub must be signed, or the website should be moved to the premises of the computer center.
 
