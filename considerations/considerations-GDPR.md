@@ -14,6 +14,10 @@ Plattform für Community der *Bioinformatiker*
 
 Teil der de.NBI-Cloud, Projekt gefördert vom BMBF
 
+zur Zeit Vertrag „Vertrag für die gemeinsame
+Verantwortung der Datenverarbeitung
+in der de.NBI Cloud“ in Vorbereitung (siehe Ausdruck)
+
 *Galaxy Group Freiburg* ist Teil des Lehrstuhls für Bioinformatik: Lehre für Uni, hauptsächlich Community-Building (Workshops) und Plattform-Pflege
 
 Verwendung von Open-Source auf Open-Source-Plattformen und Hardware, die in Universitäten in Deutschland untergestellt ist
@@ -31,7 +35,7 @@ Mehrwert der Seite entsteht aus
 - Zugang zu Hardwareressourcen ohne komplexe universitäre Genehmigungsprozedur: HPC, Storage
 - Sichtbarkeit in Community
 - Sharing von Software, Tools und besonders Workflows
-- Nutzbarkeit durch Abstraktion von Linux, R etc.
+- Nutzbarkeit durch Abstraktion von Kommandozeilen, Betriebssystemen, Programmierumgebungen etc.
 
 Neues Tool TIaaS: Ressourcen wie bei Galaxy-Server FR, Dienst weltweit nutzbar
 
@@ -53,7 +57,11 @@ es gibt Statistikseite (auf Ressourcen im RZ, erreichbar unter https://stats.gal
 
 ## Problemfelder zur Zeit
 
+Verantwortung für Cloud-Dienst, jetzt konkret im Sinne der DSGVO
+
 Einsatz von Google-Forms für bestimmte Aufgaben
+
+Google Analytics?
 
 Nutzung der Nameserver von Amazon
 

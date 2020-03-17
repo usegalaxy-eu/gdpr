@@ -34,6 +34,8 @@ The Freiburg Galaxy Team cooperatates with sub-contractors. Order processing con
 - [list of de.NBI partners]
 - [list of Galaxy partners] <!--if applicable-->
 
+The systems needed for providing the Galaxy services are hosted in the computer center of the university of Freiburg. The computer center is part of the university and responsible for central IT services used by members of the university and associated parties (project partners, other internal facilities).
+
 
 ## Introduction
 
@@ -88,6 +90,8 @@ These purposes also constitute our legitimate interest in processing personal da
 The recipient of the information contained in the cookies is exclusively the authorized web server, i.e. the university web server that sent the cookie.
 
 <!--Any regulation of the retention of cookies on server's side?.-->
+
+<!-- Is Google analytics in use?-->
 
 ## Links to Other Websites
 
