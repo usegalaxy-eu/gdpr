@@ -31,8 +31,7 @@ The services include European Galaxy Sites or "the Galaxy Service": any one of t
 The Freiburg Galaxy Team cooperatates with sub-contractors. Order processing contracts are signed with:
 
 - GitHub Inc.
-- [list of de.NBI partners]
-- [list of Galaxy partners] <!--if applicable-->
+- [de.NBI partners](https://www.denbi.de/cloud)
 
 The systems needed for providing the Galaxy services are hosted in the computer center of the university of Freiburg. The computer center is part of the university and responsible for central IT services used by members of the university and associated parties (project partners, other internal facilities).
 
@@ -45,7 +44,7 @@ The Galaxy Freiburg Team is aware the protection of your privacy is important wh
 
 During normal usage of our services we do not collect information that will personally identify you. Our webservers only store information such as the Referrer (where you came to us from), pages that you access, and dates of your visit. We may use this information in anonymised aggregates in order to generate usage statistics and to improve the usefulness of our services. The data related to people is discarded after 24 hours.
 
-<!--Contradiction to assertion that „job execution data“ are stored permanentnly. Note: Jobs do run on completely different systems.-->
+<!--Contradiction to assertion that „job execution data“ are stored permanenently. Note: Jobs do run on completely different systems.-->
 
 <!--Don't you store
 
