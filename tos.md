@@ -10,7 +10,9 @@ European Galaxy Sites or "the Galaxy Service": any one of the Galaxy sites provi
 
 - https://usegalaxy.eu
 - https://hicexplorer.usegalaxy.eu
+- https://live.usegalaxy.eu
 - https://metagenomics.usegalaxy.eu
+- https://microgalaxy.usegalaxy.eu
 - https://galaxy.uni-freiburg.de
 
 UseGalaxy Site
