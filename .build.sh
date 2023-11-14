@@ -1,5 +1,6 @@
 #!/bin/bash
 set -ex
+ls /usr/local/rvm/environments/ -alh
 source /usr/local/rvm/environments/ruby-2.4.1
 
 ruby --version
