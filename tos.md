@@ -4,23 +4,11 @@ published_effective: true
 title: Terms of Service
 ---
 
-## Definitions
 
-European Galaxy Sites or "the Galaxy Service": any one of the Galaxy sites provided to you by the Freiburg Galaxy Team and the European Galaxy Project, including but not limited to:
+## Use of Service
 
-- https://usegalaxy.eu
-- https://hicexplorer.usegalaxy.eu
-- https://metagenomics.usegalaxy.eu
-- https://galaxy.uni-freiburg.de
-
-UseGalaxy Site
-
-- https://usegalaxy-eu.github.io
-
-## Use of Service.
-
-The European Galaxy Sites and UseGalaxy Site are a free, public, Internet
-accessible resource (the "Service"). Data transfer is encrypted unless you
+The European Galaxy Sites and UseGalaxy Site are a free, public, Internet-accessible
+resource (the "Service"). Data transfer is encrypted unless you
 choose to use unencrypted FTP access. Data storage is not encrypted. If there
 are restrictions on the way your research data can be stored and used, please
 consult your local institutional review board or the project principal
@@ -32,22 +20,28 @@ deemed necessary by the operators of the Service.
 
 You acknowledge that you are responsible for compliance of all of your data
 processing activities carried out on the Galaxy Service with applicable laws
-and regulations of the Federal Republic of Germany, the European Union as well
+and regulations of the Federal Republic of Germany, the European Union, as well
 as any laws or regulations of other legislations or any other restrictions that
 might be applicable due to the provenance, intended use, legal ownership of or
 any licensing or other legal restrictions imposed on the data being processed.
 
-You are strictly prohibited from making use of the Galaxy Service for the
-storage or processing of any Personal Data or Sensitive Personal Data as
-defined by the European Union's General Data Protection Regulation (GDPR),
-including but not limited to potentially personally identifying medical data.
+Usegalaxy.eu is hosted out of an ISO 27001 certified data center operated by the
+[University of Freiburg IT Services](https://www.rz.uni-freiburg.de/en?set_language=en)
+and does its due diligence to ensure information security and data protection.
+However, this does not consitute a warranty for fitness for any particular purpose.
+You, the end user, bear the full responsibility for the implications of using our
+services. You are strictly prohibited from making use of the Galaxy Service for
+running non-scientific cryptography applications, storing and/or processing
+any data obtained from illegitimate sources, or any other activities that are
+categorized as a (cyber) crime with respect to the laws of Germany or EU.
+
 
 ## Accounts and Service Limitations
 
 You may choose to register an account with the Service. Your registration data
 is primarily used so you may persistently store data on the Service and use
 advanced Galaxy features such as sharing and workflows. The operators of the
-Service will not provide your registration data to any third party unless
+Service will not provide your registration data to any third party, unless
 required to do so by law. Your access to the Service is provided under the
 condition that you abide by any published quotas on data storage, job
 submissions, or any other limitations placed on the public Service. Attempts to

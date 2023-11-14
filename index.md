@@ -6,7 +6,7 @@ title: GDPR Compliance Documentation
 For UseGalaxy.eu
 
 ## ToS & PP
-
+- [Definitions and scope](./scope.html)
 - [Privacy Policy](./privacy-policy.html)
 - [Terms of Service](./tos.html)
 
