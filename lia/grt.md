@@ -12,13 +12,13 @@ title: Galactic Radio Telescope (GRT) Legitimate Interest Assessment
 - The data is made available, free of charge, for anyone to analyse and draw conclusions about tool runtimes and cpu/memory usage based on input parameters.
 - The benefit to optimising resource consumption is significant.
 - If we could not go ahead we will continue to poorly schedule resources and not be able to freely support all of our users.
-- Our usage is ethical and lawful
+- Our usage is ethical and lawful.
 
 ## Necessity Test
 
-- The processing of the data is necessary to achieve the goals of the GRT project
-- This is the only way to go about it
-- We only obtain and send the minimum amount of data required to process the analysis
+- The processing of the data is necessary to achieve the goals of the GRT project.
+- This is the only way to go about it.
+- We only obtain and send the minimum amount of data required to process the analysis.
 
 ## Balancing Test
 
