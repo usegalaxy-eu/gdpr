@@ -1,0 +1,27 @@
+name: Jekyll build for PRs
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    
+    # Use GitHub Actions' cache to cache dependencies on servers
+    - uses: actions/cache@v3
+      with:
+        path: vendor/bundle
+        key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+        restore-keys: |
+          ${{ runner.os }}-gems-
+    
+    # Use GH action to build and publish into the gh-pages branch
+    - uses: jeffreytse/jekyll-deploy-action@v0.5.0
+      with:
+        provider: 'github'
+        branch: 'gh-pages'
+        token: ${{ secrets.GITHUB_TOKEN }}
