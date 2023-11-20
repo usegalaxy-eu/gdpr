@@ -13,4 +13,4 @@ jobs:
     - uses: jeffreytse/jekyll-deploy-action@v0.5.0
       with:
         provider: 'test'
-        token: ${{ secrets.GITHUB_TOKEN }}
+        token: ${{ secrets.JEKYLL_DEPLOY_TOKEN }}
