@@ -26,6 +26,9 @@ data:
         - BG
         - SJ
         - HR
+        - SS
+        - MK
+        - JD
       disposal: Upon Request
       consent: true
       over_13: true
@@ -41,6 +44,9 @@ data:
         - BG
         - SJ
         - HR
+        - SS
+        - MK
+        - JD
       disposal: After 24 hours
       consent: false
       over_13: true
@@ -62,6 +68,9 @@ data:
         - BG
         - SJ
         - HR
+        - SS
+        - MK
+        - JD
       disposal: Never
       consent: false
       over_13: true
@@ -75,11 +84,14 @@ data:
       handling: |
         Stored permanently until you request deletion. You and the Galaxy
         administrators have access to this data. The Galaxy administrators
-        will not access your data except in order to resolve bugs with you.
+        will not access your data except in order to resolve bugs together with you.
       access:
         - BG
         - SJ
         - HR
+        - SS
+        - MK
+        - JD
       disposal: Never / On Request
       consent: true
       over_13: true
