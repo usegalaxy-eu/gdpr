@@ -17,4 +17,4 @@ jobs:
       with:
         provider: 'github'
         branch: 'gh-pages'
-        token: ${{ secrets.JEKYLL_DEPLOY_TOKEN }}
+        token: ${{ secrets.GITHUB_TOKEN }}
