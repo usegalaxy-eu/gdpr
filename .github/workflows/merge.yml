@@ -1,0 +1,20 @@
+name: Jekyll build for PRs
+
+on:
+  push:
+    branches:
+      - master
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    
+    # Use GH action to build and publish into the gh-pages branch
+    - uses: jeffreytse/jekyll-deploy-action@v0.5.0
+      with:
+        provider: 'github'
+        branch: 'gh-pages'
+        token: ${{ secrets.JEKYLL_DEPLOY_TOKEN }}
