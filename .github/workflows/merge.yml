@@ -11,6 +11,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
     
     # Use GH action to build and publish into the gh-pages branch
     - uses: jeffreytse/jekyll-deploy-action@v0.5.0

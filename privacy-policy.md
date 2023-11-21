@@ -33,4 +33,6 @@ We reserve the right to amend or correct this Privacy Statement at any time. The
 
 ## How to Contact Us
 
-In case you have any questions or concerns related to this Privacy Statement, please send us an email at [contact@usegalaxy.eu](mailto:contact@usegalaxy.eu)
+In case you have any questions or concerns related to this Privacy Statement, please send us an email at [contact@usegalaxy.eu](mailto:contact@usegalaxy.eu).
+
+You can also contact the Data Protection Representative of the University of Freiburg via [datenschutzbeauftragter@uni-freiburg.de](mailto:datenschutzbeauftragter@uni-freiburg.de). If you believe that your legal rights have been infringed, you have the right to lodge a formal complaint with the responsible supervisory authorities, e.g. [Baden-Württemberg Data Protection and Information Freedom Commissioner](https://www.baden-wuerttemberg.datenschutz.de/)
