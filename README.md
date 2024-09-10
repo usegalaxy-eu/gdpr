@@ -6,7 +6,7 @@ To install an environment to locally inspect the compiled output, you can do the
 
 1. Create a conda environment and activate it:
 ```
-conda create -n gdpr rb-bundler gxx_linux-64
+conda create -n gdpr rb-bundler gxx_linux-64 libxcrypt
 conda activate gdpr
 ```
 
