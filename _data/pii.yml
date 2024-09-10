@@ -59,8 +59,8 @@ data:
           UseGalaxy.eu administrators have access to.
 
           We perform automated security scans on job data to protect our systems against
-          malicious software. The scans happen on our servers and no data is
-          transmitted.
+          malicious software. The scans take place on our servers and no data is
+          transferred.
 
           Additionaly, pseudonymized data is shared publicly for analysis by
           the Galaxy Project in order to optimise job scheduling and memory
@@ -86,9 +86,9 @@ data:
         will not access your data except in order to resolve bugs together with you.
         
         We perform automated security scans on datasets to protect our systems against
-        malicious software. The scans happen on our servers and no data is
-        transmitted. If our systems report malicious data or abuse, data can be
-        subject to manual inspection by our administrators.
+        malicious software. The scans take place on our servers and no data is
+        transferred. If our systems report malicious data or abuse,
+        the data may be subjected to a manual check by our administrators.
       access:
         - BG
         - SJ
