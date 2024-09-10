@@ -16,7 +16,15 @@ investigator before uploading it to any public site, including this Service. If
 you have protected data, large data storage requirements, or short deadlines
 you are encouraged to set up your own local Galaxy instance and not use this
 Service. Your access to the service may be revoked at any time for reasons
-deemed necessary by the operators of the Service.
+deemed necessary by the operators of the Service. This includes, but is not limited
+to users who exploit our systems, by e.g. using our services for purposes that are
+not related to science, research and education in the broadest sense, but e.g. by executing
+software that leverages compute resources for the sole purpose of generating revenue.
+When our systems detect abusive behavior originating from your account, 
+we might disable your account automatically and inform you by email about the action
+and your possibilities to lodge an objection. This automated process is required to protect
+our systems and a manual process would not cope with the speed of the operations.
+
 
 You acknowledge that you are responsible for compliance of all of your data
 processing activities carried out on the Galaxy Service with applicable laws

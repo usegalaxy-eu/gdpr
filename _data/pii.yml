@@ -25,7 +25,6 @@ data:
       access:
         - BG
         - SJ
-        - HR
         - SS
         - MK
         - JD
@@ -43,10 +42,8 @@ data:
       access:
         - BG
         - SJ
-        - HR
         - SS
         - MK
-        - JD
       disposal: After 24 hours
       consent: false
       over_13: true
@@ -59,7 +56,11 @@ data:
       reason: Generated as a result of your use of the system
       handling: |
           We store the data securely in our database which only the
-          UseGalaxy.eu administrators have access to (BG, SJ, HR)
+          UseGalaxy.eu administrators have access to.
+
+          We perform automated security scans on job data to protect our systems against
+          malicious software. The scans happen on our servers and no data is
+          transmitted.
 
           Additionaly, pseudonymized data is shared publicly for analysis by
           the Galaxy Project in order to optimise job scheduling and memory
@@ -67,10 +68,8 @@ data:
       access:
         - BG
         - SJ
-        - HR
         - SS
         - MK
-        - JD
       disposal: Never
       consent: false
       over_13: true
@@ -85,13 +84,16 @@ data:
         Stored permanently until you request deletion. You and the Galaxy
         administrators have access to this data. The Galaxy administrators
         will not access your data except in order to resolve bugs together with you.
+        
+        We perform automated security scans on datasets to protect our systems against
+        malicious software. The scans happen on our servers and no data is
+        transmitted. If our systems report malicious data or abuse, data can be
+        subject to manual inspection by our administrators.
       access:
         - BG
         - SJ
-        - HR
         - SS
         - MK
-        - JD
       disposal: Never / On Request
       consent: true
       over_13: true
@@ -108,7 +110,8 @@ data:
         - HR
         - BG
         - AE
-        - BB
+        - MK
+        - SS
       disposal: Never / On request
       consent: n/a
       over_13: true
@@ -122,10 +125,10 @@ data:
       handling: |
         Documents are access controlled and limited to a small number of people specified by email address, no link-based access is used.
       access:
-        - HR
         - BG
         - AE
-        - BB
+        - MK
+        - SS
       disposal: Never / On request
       consent: n/a
       over_13: true
