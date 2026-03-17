@@ -10,8 +10,7 @@ jobs:
     - uses: actions/checkout@v4
     
     # Use GH action to build the website via Jekyll, but do not publish.
-    - uses: jeffreytse/jekyll-deploy-action@v0.7.0
+    - uses: jeffreytse/jekyll-deploy-action@v0.5.0
       with:
-        ruby_ver: '2.7.0'
         provider: 'test'
         token: ${{ secrets.GITHUB_TOKEN }}

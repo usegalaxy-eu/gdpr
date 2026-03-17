@@ -15,7 +15,7 @@ jobs:
         fetch-depth: 0
     
     # Use GH action to build and publish into the gh-pages branch
-    - uses: jeffreytse/jekyll-deploy-action@v0.7.0
+    - uses: jeffreytse/jekyll-deploy-action@v0.5.0
       with:
         provider: 'github'
         branch: 'gh-pages'
