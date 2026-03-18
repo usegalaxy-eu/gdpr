@@ -1,0 +1,45 @@
+---
+import Head from '../components/Head.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import HistoryBox from '../components/HistoryBox.astro';
+import { getGitMetadata } from '../utils/git-metadata';
+import { resolve } from 'path';
+import '../styles/main.scss';
+
+// Markdown layouts receive frontmatter both directly and under frontmatter key
+const frontmatter = (Astro.props as any).frontmatter ?? {};
+const title: string = Astro.props.title ?? frontmatter.title ?? '';
+const publishedEffective: boolean =
+  Astro.props.publishedEffective ?? frontmatter.publishedEffective ?? false;
+const pageUrl = Astro.url.pathname;
+
+// Derive the current file path (relative to repo root) from the page URL.
+// e.g. /gdpr/scope.html -> src/pages/scope.md
+//      /gdpr/lia/grt.html -> src/pages/lia/grt.md
+// git log --follow on src/pages/ paths traces back through the migration rename
+// to include pre-migration history from the old root-level locations.
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const relPath = pageUrl.startsWith(base) ? pageUrl.slice(base.length) : pageUrl;
+const pageName = relPath.replace(/^\//, '').replace(/\.html$/, '');
+const srcFile = `src/pages/${pageName}.md`;
+const git = getGitMetadata(srcFile);
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <Head title={title} pageUrl={pageUrl} />
+  <body>
+    <div id="wrap">
+      <div id="main">
+        <Header title={title} pageUrl={pageUrl} />
+        <div class="container" id="maincontainer">
+          <h1>{title}</h1>
+          <HistoryBox git={git} filePath={srcFile} publishedEffective={publishedEffective} />
+          <slot />
+        </div>
+      </div>
+    </div>
+    <Footer />
+  </body>
+</html>
