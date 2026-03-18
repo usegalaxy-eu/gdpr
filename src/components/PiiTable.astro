@@ -1,0 +1,81 @@
+---
+import { readFileSync } from 'fs';
+import { resolve } from 'path';
+import yaml from 'js-yaml';
+
+interface Header {
+  title: string;
+  comment?: string;
+}
+
+interface PiiRow {
+  data: string;
+  source: string;
+  reason: string;
+  handling: string;
+  access: string[];
+  disposal: string;
+  consent: boolean | string;
+  over_13: boolean | string;
+  mission_crit: boolean | string;
+  pd: boolean | string;
+  spd: boolean | string;
+}
+
+interface PiiData {
+  meta: { headers: Header[] };
+  data: PiiRow[];
+}
+
+interface PeopleData {
+  [key: string]: { name: string; affil: string };
+}
+
+const piiPath = resolve(process.cwd(), 'src/data/pii.yml');
+const peoplePath = resolve(process.cwd(), 'src/data/people.yml');
+
+const piiData = yaml.load(readFileSync(piiPath, 'utf-8')) as PiiData;
+const people = yaml.load(readFileSync(peoplePath, 'utf-8')) as PeopleData;
+---
+
+<table class="table table-striped table-responsive">
+  <thead>
+    <tr>
+      {piiData.meta.headers.map(header => (
+        <th>
+          {header.title}
+          {header.comment && (
+            <div style="font-weight: normal">{header.comment}</div>
+          )}
+        </th>
+      ))}
+    </tr>
+  </thead>
+  <tbody>
+    {piiData.data.map(row => (
+      <tr>
+        <td>{row.data}</td>
+        <td>{row.source}</td>
+        <td>{row.reason}</td>
+        <td set:html={row.handling?.replace(/\n/g, '<br />')} />
+        <td>
+          <ul>
+            {row.access.map(person => (
+              <li>
+                <abbr title={`${people[person]?.name ?? person} (${people[person]?.affil ?? ''})`}>
+                  {person}
+                </abbr>
+              </li>
+            ))}
+          </ul>
+        </td>
+        <td>{String(row.disposal)}</td>
+        <td>{String(row.consent)}</td>
+        <td>{String(row.over_13)}</td>
+        <td>{String(row.mission_crit)}</td>
+        <td>{String(row.pd)}</td>
+        <td>{String(row.spd)}</td>
+      </tr>
+    ))}
+  </tbody>
+</table>

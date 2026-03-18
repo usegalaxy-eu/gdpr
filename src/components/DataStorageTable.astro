@@ -1,0 +1,61 @@
+---
+import { readFileSync } from 'fs';
+import { resolve } from 'path';
+import yaml from 'js-yaml';
+
+interface Header {
+  title: string;
+}
+
+interface StorageRow {
+  datastore: string;
+  contents: string;
+  access: string[];
+  pii: boolean;
+}
+
+interface StorageData {
+  meta: { headers: Header[] };
+  data: StorageRow[];
+}
+
+interface PeopleData {
+  [key: string]: { name: string; affil: string };
+}
+
+const storagePath = resolve(process.cwd(), 'src/data/datastorage.yml');
+const peoplePath = resolve(process.cwd(), 'src/data/people.yml');
+
+const storageData = yaml.load(readFileSync(storagePath, 'utf-8')) as StorageData;
+const people = yaml.load(readFileSync(peoplePath, 'utf-8')) as PeopleData;
+---
+
+<table class="table table-striped table-responsive">
+  <thead>
+    <tr>
+      {storageData.meta.headers.map(header => (
+        <th>{header.title}</th>
+      ))}
+    </tr>
+  </thead>
+  <tbody>
+    {storageData.data.map(row => (
+      <tr>
+        <td>{row.datastore}</td>
+        <td set:html={row.contents?.replace(/\n/g, '<br />')} />
+        <td>
+          <ul>
+            {row.access.map(person => (
+              <li>
+                <abbr title={`${people[person]?.name ?? person} (${people[person]?.affil ?? ''})`}>
+                  {person}
+                </abbr>
+              </li>
+            ))}
+          </ul>
+        </td>
+        <td>{String(row.pii)}</td>
+      </tr>
+    ))}
+  </tbody>
+</table>

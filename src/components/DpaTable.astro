@@ -1,0 +1,56 @@
+---
+import { readFileSync } from 'fs';
+import { resolve } from 'path';
+import yaml from 'js-yaml';
+
+interface Header {
+  title: string;
+  comment?: string;
+}
+
+interface DpaRow {
+  types: string;
+  categories: string;
+  purpose: string;
+  recipients: string;
+  storage_period: string;
+  security: string;
+  exported: boolean;
+}
+
+interface DpaData {
+  meta: { headers: Header[] };
+  data: DpaRow[];
+}
+
+const dpaPath = resolve(process.cwd(), 'src/data/dpa_register.yml');
+const dpaData = yaml.load(readFileSync(dpaPath, 'utf-8')) as DpaData;
+---
+
+<table class="table table-striped table-responsive">
+  <thead>
+    <tr>
+      {dpaData.meta.headers.map(header => (
+        <th>
+          {header.title}
+          {header.comment && (
+            <div style="font-weight: normal">{header.comment}</div>
+          )}
+        </th>
+      ))}
+    </tr>
+  </thead>
+  <tbody>
+    {dpaData.data.map(row => (
+      <tr>
+        <td>{row.types}</td>
+        <td>{row.categories}</td>
+        <td>{row.purpose}</td>
+        <td>{row.recipients}</td>
+        <td>{row.storage_period}</td>
+        <td>{row.security}</td>
+        <td>{String(row.exported)}</td>
+      </tr>
+    ))}
+  </tbody>
+</table>
