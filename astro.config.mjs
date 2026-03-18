@@ -6,4 +6,13 @@ export default defineConfig({
   build: {
     format: 'file',
   },
+  vite: {
+    css: {
+      preprocessorOptions: {
+        scss: {
+          api: 'modern-compiler',
+        },
+      },
+    },
+  },
 });
