@@ -1,6 +1,6 @@
 ---
-layout: history
-published_effective: true
+layout: ../layouts/History.astro
+publishedEffective: true
 title: Definitions / scope
 ---
 

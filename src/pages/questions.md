@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: ../layouts/Default.astro
 title: GDPR Questions
 ---
 

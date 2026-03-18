@@ -1,5 +1,5 @@
 ---
-layout: history
+layout: ../../layouts/History.astro
 date: 2018-05-08 11:29:20+02:00
 author: Helena Rasche
 title: Galactic Radio Telescope (GRT) Legitimate Interest Assessment
@@ -40,33 +40,39 @@ Please note that NO user identifiers are included anywhere in the results. There
 
 Job Data:
 
-id      | tool_id                                                                                        | tool_version | state | create_time
---      | -------                                                                                        | ------------ | ----- | -----------
-2018626 | toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_plot_heatmap/deeptools_plot_heatmap/2.5.1.1.0 | 2.5.1.1.0    | ok    | 2017-10-22 09:44:24.077315
-{: .table.table-striped}
+<table class="table table-striped">
+  <thead><tr><th>id</th><th>tool_id</th><th>tool_version</th><th>state</th><th>create_time</th></tr></thead>
+  <tbody>
+    <tr><td>2018626</td><td>toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_plot_heatmap/deeptools_plot_heatmap/2.5.1.1.0</td><td>2.5.1.1.0</td><td>ok</td><td>2017-10-22 09:44:24.077315</td></tr>
+  </tbody>
+</table>
 
 Job Metric Data:
 
-job_id  | plugin  | name            | value
-------  | ------  | ----            | -----
-2018526 | cpuinfo | processor_count | 24.0000000
-2018526 | core    | runtime_seconds | 11.0000000
-2018526 | core    | galaxy_slots    | 1.0000000
-2018526 | core    | start_epoch     | 1508592081.0000000
-2018526 | core    | end_epoch       | 1508592092.0000000
-{: .table.table-striped}
+<table class="table table-striped">
+  <thead><tr><th>job_id</th><th>plugin</th><th>name</th><th>value</th></tr></thead>
+  <tbody>
+    <tr><td>2018526</td><td>cpuinfo</td><td>processor_count</td><td>24.0000000</td></tr>
+    <tr><td>2018526</td><td>core</td><td>runtime_seconds</td><td>11.0000000</td></tr>
+    <tr><td>2018526</td><td>core</td><td>galaxy_slots</td><td>1.0000000</td></tr>
+    <tr><td>2018526</td><td>core</td><td>start_epoch</td><td>1508592081.0000000</td></tr>
+    <tr><td>2018526</td><td>core</td><td>end_epoch</td><td>1508592092.0000000</td></tr>
+  </tbody>
+</table>
 
 Job Parameter Data:
 
-job_id  | name             | value
-------  | ----             | -----
-2018526 | chromInfo        | `{"chromInfo": "/usr/local/galaxy/galaxy-dist/tool-data/shared/ucsc/chrom/mm10.len"}`
-2018526 | input            | `{"input": {"values": [{"src": "hda", "id": 4464980, "size": 26941}]}}`
-2018526 | delimiter        | `{"delimiter": ""}`
-2018526 | cut_type_options | `{"cut_type_options": {"list": ["9"], "__current_case__": 0, "cut_element": "-f"}}`
-2018526 | dbkey            | `{"dbkey": "mm10"}`
-2018526 | complement       | `{"complement": ""}`
-{: .table.table-striped}
+<table class="table table-striped">
+  <thead><tr><th>job_id</th><th>name</th><th>value</th></tr></thead>
+  <tbody>
+    <tr><td>2018526</td><td>chromInfo</td><td><code>{"chromInfo": "/usr/local/galaxy/galaxy-dist/tool-data/shared/ucsc/chrom/mm10.len"}</code></td></tr>
+    <tr><td>2018526</td><td>input</td><td><code>{"input": {"values": [{"src": "hda", "id": 4464980, "size": 26941}]}}</code></td></tr>
+    <tr><td>2018526</td><td>delimiter</td><td><code>{"delimiter": ""}</code></td></tr>
+    <tr><td>2018526</td><td>cut_type_options</td><td><code>{"cut_type_options": {"list": ["9"], "__current_case__": 0, "cut_element": "-f"}}</code></td></tr>
+    <tr><td>2018526</td><td>dbkey</td><td><code>{"dbkey": "mm10"}</code></td></tr>
+    <tr><td>2018526</td><td>complement</td><td><code>{"complement": ""}</code></td></tr>
+  </tbody>
+</table>
 
 
 ## Conclusion

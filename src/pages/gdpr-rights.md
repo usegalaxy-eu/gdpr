@@ -1,5 +1,5 @@
 ---
-layout: history
+layout: ../layouts/History.astro
 title: User Rights under the GDPR
 ---
 
