@@ -1,6 +1,7 @@
 ---
 import Default from '../layouts/Default.astro';
 import Contact from '../components/Contact.astro';
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 ---
 
 <Default title="GDPR Compliance Documentation">
@@ -8,17 +9,17 @@ import Contact from '../components/Contact.astro';
 
   <h2>ToS &amp; PP</h2>
   <ul>
-    <li><a href="./scope.html">Definitions and scope</a></li>
-    <li><a href="./privacy-policy.html">Privacy Policy</a></li>
-    <li><a href="./tos.html">Terms of Service</a></li>
+    <li><a href={`${base}/scope.html`}>Definitions and scope</a></li>
+    <li><a href={`${base}/privacy-policy.html`}>Privacy Policy</a></li>
+    <li><a href={`${base}/tos.html`}>Terms of Service</a></li>
   </ul>
 
   <h2>GDPR Documentation</h2>
   <ul>
-    <li><a href="./gdpr-rights.html">Your Rights Under the GDPR</a></li>
-    <li><a href="./lia.html">Legitimate Interest Analyses</a></li>
-    <li><a href="./gdpr-docs.html">Data Storage and Access</a></li>
-    <li><a href="./dpa.html">Data Processing Activities Register</a></li>
+    <li><a href={`${base}/gdpr-rights.html`}>Your Rights Under the GDPR</a></li>
+    <li><a href={`${base}/lia.html`}>Legitimate Interest Analyses</a></li>
+    <li><a href={`${base}/gdpr-docs.html`}>Data Storage and Access</a></li>
+    <li><a href={`${base}/dpa.html`}>Data Processing Activities Register</a></li>
   </ul>
 
   <h2>Contact</h2>
