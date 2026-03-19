@@ -17,11 +17,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6.0.2
+      - uses: actions/checkout@v6
         with:
           fetch-depth: 0
 
-      - uses: actions/setup-node@v6.3.0
+      - uses: actions/setup-node@v6
         with:
           node-version: 22
           cache: npm
@@ -32,7 +32,7 @@ jobs:
       - name: Build
         run: npm run build
 
-      - uses: actions/upload-pages-artifact@v4.0.0
+      - uses: actions/upload-pages-artifact@v4
         with:
           path: dist/
 
@@ -44,4 +44,4 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - id: deployment
-        uses: actions/deploy-pages@v4.0.5
+        uses: actions/deploy-pages@v4
