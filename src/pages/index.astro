@@ -1,0 +1,27 @@
+---
+import Default from '../layouts/Default.astro';
+import Contact from '../components/Contact.astro';
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+---
+
+<Default title="GDPR Compliance Documentation">
+  <p>For UseGalaxy.eu</p>
+
+  <h2>ToS &amp; PP</h2>
+  <ul>
+    <li><a href={`${base}/scope.html`}>Definitions and scope</a></li>
+    <li><a href={`${base}/privacy-policy.html`}>Privacy Policy</a></li>
+    <li><a href={`${base}/tos.html`}>Terms of Service</a></li>
+  </ul>
+
+  <h2>GDPR Documentation</h2>
+  <ul>
+    <li><a href={`${base}/gdpr-rights.html`}>Your Rights Under the GDPR</a></li>
+    <li><a href={`${base}/lia.html`}>Legitimate Interest Analyses</a></li>
+    <li><a href={`${base}/gdpr-docs.html`}>Data Storage and Access</a></li>
+    <li><a href={`${base}/dpa.html`}>Data Processing Activities Register</a></li>
+  </ul>
+
+  <h2>Contact</h2>
+  <Contact />
+</Default>

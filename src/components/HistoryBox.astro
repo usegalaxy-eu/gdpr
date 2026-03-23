@@ -1,0 +1,56 @@
+---
+import type { GitMetadata } from '../utils/git-metadata';
+
+interface Props {
+  git: GitMetadata;
+  filePath: string;
+  publishedEffective?: boolean;
+}
+
+const { git, filePath, publishedEffective = false } = Astro.props;
+// Normalize filePath to just the filename relative to repo root for the GitHub URL
+const repoRelPath = filePath.replace(/^.*\/(src\/pages\/)/, '$1').replace(/^src\/pages\//, '');
+---
+
+<div class="panel panel-primary pull-right" id="history">
+  <div class="panel-heading"><h3 class="panel-title">History</h3></div>
+  <div class="panel-body">
+    <table class="table table-striped">
+      <tbody>
+        <tr>
+          <td>Authors</td>
+          <td>
+            {git.authors.map(author => <>{author}<br /></>)}
+          </td>
+        </tr>
+        <tr>
+          <td>Revisions</td>
+          <td>{git.totalCommits}</td>
+        </tr>
+        <tr>
+          <td>{publishedEffective ? 'Effective' : 'Revised'}</td>
+          <td>{git.lastCommitDate}</td>
+        </tr>
+        <tr>
+          <td>History</td>
+          <td>
+            <ul>
+              {git.lastCommitSha && (
+                <li>
+                  <a href={`https://github.com/usegalaxy-eu/gdpr/commit/${git.lastCommitSha}`}>
+                    Most Recent Changes
+                  </a>
+                </li>
+              )}
+              <li>
+                <a href={`https://github.com/usegalaxy-eu/gdpr/commits/main/${repoRelPath}`}>
+                  All Changes
+                </a>
+              </li>
+            </ul>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

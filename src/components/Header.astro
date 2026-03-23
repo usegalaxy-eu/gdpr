@@ -1,0 +1,64 @@
+---
+interface Props {
+  title: string;
+  pageUrl: string;
+}
+
+const { title, pageUrl } = Astro.props;
+const baseRaw = import.meta.env.BASE_URL;
+const base = baseRaw.endsWith('/') ? baseRaw : `${baseRaw}/`;
+const siteTitle = 'GDPR';
+
+// Build breadcrumbs from URL path
+// pageUrl is the full pathname e.g. "/gdpr/dpa/index.html" or "/gdpr/scope.html"
+// We want crumbs relative to the base (/gdpr)
+const baseNoTrailingSlash = base.endsWith('/') ? base.slice(0, -1) : base;
+const relPath = pageUrl.startsWith(baseNoTrailingSlash)
+  ? pageUrl.slice(baseNoTrailingSlash.length)
+  : pageUrl;
+
+// Split into parts, remove empty strings and "index.html"
+const rawParts = relPath.split('/').filter(p => p && p !== 'index.html');
+
+// Build crumb objects: all but last are links, last is active
+interface Crumb {
+  label: string;
+  href: string;
+  active: boolean;
+}
+
+const crumbs: Crumb[] = rawParts.map((part, i) => {
+  const isLast = i === rawParts.length - 1;
+  if (isLast) {
+    return { label: title, href: '#', active: true };
+  }
+  // Build href by joining base + parts up to and including this one
+  const href = baseNoTrailingSlash + '/' + rawParts.slice(0, i + 1).join('/') + '/';
+  const label = part.replace(/-/g, ' ').replace(/\.html$/, '');
+  // capitalize first letter
+  return { label: label.charAt(0).toUpperCase() + label.slice(1), href, active: false };
+});
+---
+
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <div class="navbar-brand">
+        <img alt="galaxy eu logo" src={`${base}assets/media/galaxy-eu-logo.svg`} style="height: 20px" />
+      </div>
+      <a class="navbar-brand" href={`${baseNoTrailingSlash}/`} style="padding-left: 6px">
+        {siteTitle}
+      </a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        {crumbs.map(crumb =>
+          crumb.active
+            ? <li class="active"><a href="#">{crumb.label}</a></li>
+            : <li><a href={crumb.href}>{crumb.label}</a></li>
+        )}
+      </ul>
+    </div>
+  </div>
+</nav>
