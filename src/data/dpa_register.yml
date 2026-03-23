@@ -21,12 +21,33 @@ data:
       purpose: Contacting end users in case of privacy breaches or changes to privacy policies
       recipients: Administrators of the UseGalaxy.eu service
       storage_period: Until user requests deletion
-      security: Postgresql DB with highly restricted and audited access
+      security: PostgreSQL DB with highly restricted and audited access
       exported: false
     - types: Chosen name provided by UseGalaxy.eu users
       categories: End users
       purpose: Referring to users per their preference in the user interface. Additionally used to refer to user when they choose to share their workflows or data publicly.
       recipients: Administrators of the UseGalaxy.eu service, made public only when the user requests to publish a history/workflow/etc publicly.
       storage_period: Until user requests deletion
-      security: Postgresql DB with highly restricted and audited access
+      security: PostgreSQL DB with highly restricted and audited access
       exported: false
+    - types: API Key to third-party storage providers
+      categories: End users
+      purpose: Connect Galaxy to a third-party storage provider specified by the user. This lets the user interact with this provider through the Galaxy interface.
+      recipients: Administrators of the UseGalaxy.eu service and the respective third-party providers using their API.
+      security: PostgreSQL DB with highly restricted and audited access. Data in the database is stored in encrypted form. The transfer to the third-party provider is secured by TLS (Transport Layer Security).
+      storage_period: Until user requests deletion
+      exported: true
+    - types: IP address, browser and operating system information
+      categories: End users
+      purpose: Deliver content from third-party providers, such as images, hypertext and applications.
+      recipients: Amazon Web Services, Inc. (AWS), 410 Terry Ave N, Seattle, WA 98109, USA, Cloudflare, Inc., 101 Townsend St., San Francisco, California, 94107, USA, GitHub, Inc., 88 Colin P Kelly Jr St, San Francisco, CA 94107, USA, Volentio JSD Limited (JSDelivr), Suite 2a1, Northside House, Mount Pleasant, Barnet, England, EN4 9EB, United Kingdom, Functional Software Inc. (Sentry), 45 Fremont St, 8th Floor, San Francisco, CA 94105, USA, StackPath LLC (JQuery CDN), 2021 McKinney Ave, Suite 1100, Dallas, TX 75201, USA, mastodon.science, represented by Nabil-Fareed Alikhan.
+      security: Managed by the respective third-party provider.
+      storage_period: Managed by the respective third-party provider.
+      exported: true
+    - types: Data from third-party identity providers (OIDC), this can include Name, Identification numbers (as provided by identity providers like a home institution, or identifiers from third parties like ORCID), E-mail address, affiliation, country, IP address, function in the third-party institution
+      categories: End users
+      purpose: Simplify login by allowing users to use a third party identity provider.
+      security: PostgreSQL DB with highly restricted and audited access
+      storage_period: Until user requests deletion
+      exported: false
+
