@@ -1,36 +1,12 @@
-HR:
-  name: Helena Rasche
+Galactic Radio Telescope Admins:
+  name: Galactic Radio Telescope admin team
+  affil: University of Freiburg, Freiburg, Germany 
+Galaxy Admins:
+  name: European Galaxy admin team
   affil: University of Freiburg, Freiburg, Germany
-SJ:
-  name: Stefan Jankowski
-  affil: University of Freiburg, Freiburg, Germany
-BG:
-  name: Bjoern Gruening
-  affil: University of Freiburg, Freiburg, Germany
-SS:
-  name: Sanjay Srikakulam
-  affil: University of Freiburg, Freiburg, Germany
-MK:
-  name: Mira Kuntz
-  affil: University of Freiburg, Freiburg, Germany
-JD:
-  name: Jose Dominguez
-  affil: University of Freiburg, Freiburg, Germany
-MM:
-  name: Manuel Messner
-  affil: University of Freiburg, Freiburg, Germany
-MC:
-  name: Martin Cech
-  affil: Penn State University, State College, Pennsylvania, USA
-NC:
-  name: Nate Coraor
-  affil: Penn State University, State College, Pennsylvania, USA
-UTA:
-  name: UFR Tape Administrators
-  affil: University of Freiburg, Freiburg, Germany
-BB:
-  name: Bérénice Batut
-  affil: University of Freiburg, Freiburg, Germany
-AE:
-  name: Anika Erxleben
-  affil: University of Freiburg, Freiburg, Germany
+Galaxy Support Team:
+  name: European Galaxy user support team
+  affil: University of Freiburg, Freiburg, Germany 
+University of Freiburg Storage Admins:
+  name: University of Freiburg storage admin team
+  affil: University of Freiburg, Freiburg, Germany 

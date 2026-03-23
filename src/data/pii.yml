@@ -23,11 +23,7 @@ data:
       reason: Required for processing your data and contacting you in event of an error
       handling: We store the data securely in our database which only the UseGalaxy administrators have access to.
       access:
-        - BG
-        - SJ
-        - SS
-        - MK
-        - JD
+        - Galaxy Admins
       disposal: Upon Request
       consent: true
       over_13: true
@@ -40,10 +36,7 @@ data:
       reason: Required for debugging system issues
       handling: We store server logs for up to 24 hours, on disk, never backed up.
       access:
-        - BG
-        - SJ
-        - SS
-        - MK
+        - Galaxy Admins
       disposal: After 24 hours
       consent: false
       over_13: true
@@ -66,10 +59,8 @@ data:
           the Galaxy Project in order to optimise job scheduling and memory
           allocation, allowing us to run more jobs per node than we used to.
       access:
-        - BG
-        - SJ
-        - SS
-        - MK
+        - Galaxy Admins
+        - Galaxy Support Team
       disposal: Never
       consent: false
       over_13: true
@@ -90,10 +81,7 @@ data:
         transferred. If our systems report malicious data or abuse,
         the data may be subjected to a manual check by our administrators.
       access:
-        - BG
-        - SJ
-        - SS
-        - MK
+        - Galaxy Admins
       disposal: Never / On Request
       consent: true
       over_13: true
@@ -107,12 +95,8 @@ data:
       handling: |
         Documents are access controlled and limited to a small number of people specified by email address, no link-based access is used.
       access:
-        - HR
-        - BG
-        - AE
-        - MK
-        - SS
-      disposal: Never / On request
+        - Galaxy Admins
+      disposal: Never / On Request
       consent: n/a
       over_13: true
       mission_crit: true
@@ -123,12 +107,9 @@ data:
       source: Training Infrastructure as a Service form submission
       reason: Generated as a result of your submission of the form
       handling: |
-        Documents are access controlled and limited to a small number of people specified by email address, no link-based access is used.
+         Stored in a database on our Galaxy Server in Freiburg.
       access:
-        - BG
-        - AE
-        - MK
-        - SS
+        - Galaxy Admins
       disposal: Never / On request
       consent: n/a
       over_13: true

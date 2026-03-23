@@ -9,20 +9,14 @@ data:
       contents: |
         All user information, job data
       access:
-        - BG
-        - SJ
-        - HR
+        - Galaxy Admins
       pii: true
 
     - datastore: Galactic Radio Telescope
       contents: |
         Anonymous job data
       access:
-        - BG
-        - SJ
-        - HR
-        - NC
-        - MC
+        - Galactic Radio Telescope Admins
       pii: false
 
     - datastore: Apollo
@@ -31,9 +25,7 @@ data:
         available to the user to improve their user experience that contain
         Email addresses
       access:
-        - BG
-        - SJ
-        - HR
+        - Galaxy Admins
       pii: true
 
     - datastore: NFS Servers (sn01, sn02, sn03, isi.ifr)
@@ -45,9 +37,8 @@ data:
 
         This provides the file storage for Apollo above.
       access:
-        - BG
-        - SJ
-        - HR
+        - Galaxy Admins
+        - University of Freiburg Storage Admins
       pii: true
 
     - datastore: Tape Backups
@@ -56,15 +47,12 @@ data:
         however the data remains on tape until it is overwritten at some point
         in the future.
       access:
-        - SJ
+        - University of Freiburg Storage Admins
       pii: true
 
     - datastore: Google Drive
       contents: |
         Quota increase requests + TIaaS Requests
       access:
-        - HR
-        - BG
-        - AE
-        - BB
+        - Galaxy Support Team
       pii: true
