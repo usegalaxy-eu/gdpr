@@ -9,10 +9,18 @@ Static documentation site for UseGalaxy.eu's GDPR compliance, built with [Astro]
 ## Local development
 
 ```sh
-npm install        # Install dependencies
-npm run dev        # Start local dev server at http://localhost:4321/gdpr/
-npm run build      # Build static site to dist/
-npm run preview    # Preview the built site locally
+make dev      # Install deps and start dev server at http://localhost:4321/gdpr/
+make build    # Install deps and build static site to dist/
+make preview  # Install deps and preview the built site locally
+```
+
+Or directly with npm:
+
+```sh
+npm install
+npm run dev      # Start dev server
+npm run build    # Build site
+npm run preview  # Preview built site
 ```
 
 ## CI notes
