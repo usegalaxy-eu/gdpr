@@ -37,7 +37,7 @@ data:
       security: PostgreSQL DB with highly restricted and audited access. Data in the database is stored in encrypted form. The transfer to the third-party provider is secured by TLS (Transport Layer Security).
       storage_period: Until user requests deletion
       exported: true
-    - types: IP address, browser and operating system information
+    - types: IP address, browser and operating system information (depends on your browser-configuration)
       categories: End users
       purpose: Deliver content from third-party providers, such as images, hypertext and applications.
       recipients: Amazon Web Services, Inc. (AWS), 410 Terry Ave N, Seattle, WA 98109, USA, Cloudflare, Inc., 101 Townsend St., San Francisco, California, 94107, USA, GitHub, Inc., 88 Colin P Kelly Jr St, San Francisco, CA 94107, USA, Volentio JSD Limited (JSDelivr), Suite 2a1, Northside House, Mount Pleasant, Barnet, England, EN4 9EB, United Kingdom, Functional Software Inc. (Sentry), 45 Fremont St, 8th Floor, San Francisco, CA 94105, USA, StackPath LLC (JQuery CDN), 2021 McKinney Ave, Suite 1100, Dallas, TX 75201, USA, mastodon.science, represented by Nabil-Fareed Alikhan.
