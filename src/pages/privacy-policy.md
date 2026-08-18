@@ -11,11 +11,13 @@ The Galaxy Freiburg Team is aware that the protection of your privacy is importa
 
 ## Information collected and use of information
 
-During normal usage of our services we do not auto-collect information that will personally identify you. Our webservers only store information such as the Referrer (where you came to us from), pages that you access, and dates of your visit. We may use this information in anonymised aggregates in order to generate usage statistics and to improve the usefulness of our services. All of this data is discarded after 24 hours.
+During normal usage of our services we do not auto-collect information that will personally identify you. Our webservers only store information such as the Referrer (where you came to us from), pages that you access, and dates of your visit. We may use this information in anonymised aggregates in order to generate usage statistics and to improve the usefulness of our services. Webserver logs are discarded after 24 hours.
 
 Beyond this, we will only store personal information which you provide to us voluntarily (e.g. datasets uploaded to Galaxy, histories you create, etc.), or as part of a support request.
 
-The information required to register with the European Galaxy Sites and all uploaded data is solely used to offer the services provided by the Galaxy Freiburg Team. Username and email address are mandatory for registering with this service. This information is required to guarantee the legitimate use of the service and to prevent duplicate registrations abusing our quota system.
+The information required to register with the European Galaxy Sites and all uploaded data is used to offer, operate, secure, maintain, and improve the services provided by the Galaxy Freiburg Team. Username and email address are mandatory for registering with this service. This information is required to guarantee the legitimate use of the service, to prevent duplicate registrations abusing our quota system, and to send operational notices.
+
+We may retain an account shell containing your username, email address, and analysis metadata after deletion of user-generated data, as described in our [Terms of Service](/gdpr/tos). We may also use anonymized or aggregated metadata derived from your use of the service, such as job counts, tool usage frequencies, and aggregate storage statistics, for service monitoring, capacity planning, and reporting, provided that the result cannot be used to identify you.
 
 For the European Galaxy Sites you can see all of the information we have stored related to your person and you have the right to correct this information at any time. For the Galaxy service you may do this by going to [https://usegalaxy.eu](https://usegalaxy.eu), clicking on "User" → "Preferences" → "Manage Information". You also have the right to retract your consent to use personal identifiable information at any time with effect for the future. An email to the address stated below is sufficient. We never use or share the personally identifiable information provided to us in ways unrelated to the ones described above.
 

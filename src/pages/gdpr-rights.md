@@ -39,4 +39,6 @@ If we do processing activities in the future that do affect PII, we will inform 
 
 ## Right to Not be Subject to Automated Decision-making Including Profiling
 
-We do not profile our users, nor do any form of automated decision making based on personal data.
+We do not profile our users.
+
+Our systems may temporarily disable access automatically when they detect abusive behavior, in order to protect the integrity and availability of the Service. This temporary protective measure is based on our legitimate interests in preventing abuse and securing the Service ([GDPR Article 6(1)(f)](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX%3A02016R0679-20160504)). You may request human review by contacting [contact@usegalaxy.eu](mailto:contact@usegalaxy.eu). We will not make a final account termination decision solely by automated means. See our [Terms of Service](/gdpr/tos) for details.
