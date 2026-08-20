@@ -46,10 +46,10 @@ publicly accessible and may be indexed or cached by third parties. Ensure you
 have the right to share such data before publishing it.
 
 The Service offers thousands of tools, many of which are contributed and
-maintained by third parties. The operators do not warrant the correctness,
-fitness, or lawful behavior of any individual third-party tool. You are
-responsible for the outputs you generate and for ensuring that your use of any
-tool complies with applicable law and with these Terms.
+maintained by third parties. The operators do not warrant the correctness or
+fitness of any individual third-party tool. You are responsible for the data you
+bring into the Service and for ensuring that your use of the Service complies
+with applicable law and with these Terms.
 
 
 ## Accounts and Account Security
