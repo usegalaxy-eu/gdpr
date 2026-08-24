@@ -57,7 +57,7 @@ with applicable law and with these Terms.
 You may register an account with the Service. Your registration data is used so
 you may persistently store data on the Service and use advanced Galaxy features
 such as sharing and workflows. The operators of the Service will not provide
-your registration data to any third party, unless required to do so by law.
+your registration data to any third party, unless required by law.
 
 You are responsible for safeguarding the credentials associated with your
 account and for all activity that occurs under your account. You must notify us
