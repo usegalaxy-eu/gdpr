@@ -15,7 +15,7 @@ During normal usage of our services we do not auto-collect information that will
 
 Beyond this, we will only store personal information which you provide to us voluntarily (e.g. datasets uploaded to Galaxy, histories you create, etc.), or as part of a support request.
 
-The information required to register with the European Galaxy Sites and all uploaded data is used to offer, operate, secure, maintain, and improve the services provided by the Galaxy Freiburg Team. Username and email address are mandatory for registering with this service. This information is required to guarantee the legitimate use of the service, to prevent duplicate registrations abusing our quota system, and to send operational notices.
+The information required to register with the European Galaxy Sites and all uploaded data is used to offer, operate, secure, maintain, and improve the services provided by the Freiburg Galaxy Team. Username and email address are mandatory for registering with this service. This information is required to guarantee the legitimate use of the service, to prevent duplicate registrations abusing our quota system, and to send operational notices.
 
 We may retain an account shell containing your username, email address, and analysis metadata after deletion of user-generated data, as described in our [Terms of Service](/gdpr/tos). We may also use anonymized or aggregated metadata derived from your use of the service, such as job counts, tool usage frequencies, and aggregate storage statistics, for service monitoring, capacity planning, and reporting, provided that the result cannot be used to identify you.
 
