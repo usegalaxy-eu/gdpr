@@ -62,7 +62,7 @@ your registration data to any third party, unless required to do so by law.
 You are responsible for safeguarding the credentials associated with your
 account and for all activity that occurs under your account. You must notify us
 promptly at [contact@usegalaxy.eu](mailto:contact@usegalaxy.eu) if you become aware of any unauthorized use of your account
-or any other security breach. We may suspend or terminate access following a
+or any other security breach. We may suspend or terminate access  to your account following a
 suspected compromise of your account.
 
 Your access to the Service is provided under the condition that you abide by any
