@@ -26,7 +26,7 @@ We can manually delete your account upon your request. You can also initiate thi
 
 ## Right to Restrict Processing
 
-We do not transmit any Personally Identifiable Information (PII) to third parties.
+All of the processing activities we currently do are required to use the service. We do not transmit any Personally Identifiable Information (PII) to third parties.
 
 ## Right to Data Portability
 
