@@ -13,6 +13,7 @@ European Galaxy Sites or "the Galaxy Service", i.e. the Services, refer to the i
 - [https://cheminformatics.usegalaxy.eu/](https://cheminformatics.usegalaxy.eu/)
 - [https://microbiology.usegalaxy.eu/](https://microbiology.usegalaxy.eu/)
 - [https://assembly.usegalaxy.eu/](https://assembly.usegalaxy.eu/)
+as well as further *.usegalaxy.eu websites.
 
 The Terms of Service and the policies referenced there apply to the European Galaxy Sites as defined above.
 
