@@ -77,7 +77,8 @@ You must keep your registered email address valid and active. We use it, togethe
 with in-Galaxy notifications shown when you next log in to the Service, for
 service notices including the inactivity warnings described under "Data
 Retention". Email delivery cannot be guaranteed; messages may be delayed,
-filtered, or marked as spam. For this reason the in-Galaxy notification relies on periodical logins once a year. We recommend that you log in to the Service
+filtered, or marked as spam. For this reason the in-Galaxy notification is the
+authoritative channel, and we recommend that you log in to the Service
 periodically to review any notices. If email messages to your address bounce or
 go undelivered, we will additionally treat the address as unreachable and proceed with the
 steps described under "Data Retention".
