@@ -133,7 +133,11 @@ accordance with Article 5(1)(e) of the GDPR (storage limitation).
   account will be **deactivated**: your data remains stored for six months, but is no longer
   accessible to you or to automated jobs.
 - If you do not log in within **six months** of deactivation, your
-  **user-generated data will be deleted**.
+  **user-generated data will be deleted**. Your account record (username, email, and
+  analysis metadata) is retained as an account shell, and
+  may be reactivated on your request.
+- If your account remains inactive for **10 years**, the account record itself,
+  including username and email, will be **deleted**.
 
 You may delete your data and account at any time; see our
 [User Rights under the GDPR](/gdpr/gdpr-rights) page. These retention periods may change as described under "Changes to
