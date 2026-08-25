@@ -71,7 +71,7 @@ placed on the public Service. Attempts to subvert these limits by creating
 multiple accounts or through any other method may result in termination of all
 associated accounts.
 
-Following the principle of sustainable infrastructure and economic data usage and the dedication of Galaxy Europe as analyzing platform, you are responsible for further processing and transferring data to suitable repositories to foster archiving and publishing according the FAIR principles.
+Following the principle of sustainable infrastructure and economic data usage and the dedication of Galaxy Europe as analyzing platform, you are responsible for further processing and transferring data to suitable repositories to foster archiving and publishing according the FAIR principles. For options please refer to https://galaxyproject.org/eu/storage/
 
 You must keep your registered email address valid and active. We use it, together
 with in-Galaxy notifications shown when you next log in to the Service, for
