@@ -52,7 +52,7 @@ bring into the Service and for ensuring that your use of the Service complies
 with applicable law and with these Terms.
 
 
-## Accounts and Account Security
+## Accounts and Account Maintenance
 
 You may register an account with the Service. Your registration data is used so
 you may persistently store data on the Service and use advanced Galaxy features
@@ -62,7 +62,7 @@ your registration data to any third party, unless required by law.
 You are responsible for safeguarding the credentials associated with your
 account and for all activity that occurs under your account. You must notify us
 promptly at [contact@usegalaxy.eu](mailto:contact@usegalaxy.eu) if you become aware of any unauthorized use of your account
-or any other security breach. We may suspend or terminate access to your account following a
+or any other security breach. We may suspend or terminate access  to your account following a
 suspected compromise of your account.
 
 Your access to the Service is provided under the condition that you abide by any
@@ -71,14 +71,15 @@ placed on the public Service. Attempts to subvert these limits by creating
 multiple accounts or through any other method may result in termination of all
 associated accounts.
 
+Following the principle of sustainable infrastructure and economic data usage and the dedication of Galaxy Europe as analyzing platform, you are responsible for further processing and transferring data to suitable repositories to foster archiving and publishing according the FAIR principles.
+
 You must keep your registered email address valid and active. We use it, together
 with in-Galaxy notifications shown when you next log in to the Service, for
 service notices including the inactivity warnings described under "Data
 Retention". Email delivery cannot be guaranteed; messages may be delayed,
-filtered, or marked as spam. For this reason the in-Galaxy notification is the
-authoritative channel, and we recommend that you log in to the Service
+filtered, or marked as spam. For this reason the in-Galaxy notification relies on periodical logins once a year. We recommend that you log in to the Service
 periodically to review any notices. If email messages to your address bounce or
-go undelivered, we will treat the address as unreachable and proceed with the
+go undelivered, we will additionally treat the address as unreachable and proceed with the
 steps described under "Data Retention".
 
 
@@ -121,21 +122,17 @@ implications of using the Service.
 ## Data Retention
 
 We limit storage of personal data and user-generated data (uploaded datasets,
-histories, and derived results) to what is necessary for the Service, in
+histories, and derived intermediate results) to what is necessary for the Service, in
 accordance with Article 5(1)(e) of the GDPR (storage limitation).
 
 - If you do not log in for **12 months**, we will attempt to notify you via your
   registered email address and via an in-Galaxy notification shown when you next
   log in to the Service. If you do not log in within **one month** after we send
   the email notice or create the in-Galaxy notice, whichever occurs first, your
-  account will be **deactivated**: your data remains stored but is no longer
+  account will be **deactivated**: your data remains stored for six months, but is no longer
   accessible to you or to automated jobs.
 - If you do not log in within **six months** of deactivation, your
-  **user-generated data will be deleted**. Your account record (username, email, and
-  analysis metadata) is retained as an account shell, and
-  may be reactivated on your request.
-- If your account remains inactive for **10 years**, the account record itself,
-  including username and email, will be **purged**.
+  **user-generated data will be deleted**.
 
 You may delete your data and account at any time; see our
 [User Rights under the GDPR](/gdpr/gdpr-rights) page. These retention periods may change as described under "Changes to
@@ -181,8 +178,8 @@ any particular purpose.
 ## Limitation of Liability
 
 Under no circumstances and under no legal theory, whether in tort (including
-negligence), contract, or otherwise, shall Albert-Ludwigs-Universität Freiburg
-im Breisgau or any other entity which provides resources for the Service be
+negligence), contract, or otherwise, shall Universität Freiburg
+or any other entity which provides resources for the Service be
 liable to anyone for any indirect, special, incidental, or consequential damages
 of any character arising as a result of the use of this Service, including,
 without limitation, damages for loss of goodwill, work stoppage, computer
