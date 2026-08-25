@@ -123,7 +123,7 @@ implications of using the Service.
 ## Data Retention
 
 We limit storage of personal data and user-generated data (uploaded datasets,
-histories, and derived intermediate results) to what is necessary for the Service, in
+histories, and derived results) to what is necessary for the Service, in
 accordance with Article 5(1)(e) of the GDPR (storage limitation).
 
 - If you do not log in for **12 months**, we will attempt to notify you via your
