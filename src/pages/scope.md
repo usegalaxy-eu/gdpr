@@ -17,8 +17,6 @@ as well as further *.usegalaxy.eu websites.
 
 The Terms of Service and the policies referenced there apply to the European Galaxy Sites as defined above.
 
-- [https://usegalaxy-eu.github.io](https://usegalaxy-eu.github.io)
-
 "Galaxy Service" run by the European Galaxy Project is an analyzing platform.
 Workflows and analysis pipes can be developed and shared and transferred to sustainable repositories for archiving and publication.
 
