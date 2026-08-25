@@ -135,7 +135,7 @@ accordance with Article 5(1)(e) of the GDPR (storage limitation).
   analysis metadata) is retained as an account shell, and
   may be reactivated on your request.
 - If your account remains inactive for **10 years**, the account record itself,
-  including username and email, will be **purged**.
+  including username and email, will be **deleted**.
 
 You may delete your data and account at any time; see our
 [User Rights under the GDPR](/gdpr/gdpr-rights) page. These retention periods may change as described under "Changes to
