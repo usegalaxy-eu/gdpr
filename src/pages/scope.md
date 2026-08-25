@@ -18,6 +18,6 @@ as well as further *.usegalaxy.eu websites.
 The Terms of Service and the policies referenced there apply to the European Galaxy Sites as defined above.
 
 "Galaxy Service" run by the European Galaxy Project is an analyzing platform.
-Workflows and analysis pipes can be developed and shared and transferred to sustainable repositories for archiving and publication.
+Workflows and analysis pipes can be developed, shared, and transferred to sustainable repositories for archiving and publication.
 
 The European Galaxy Project website at [https://galaxyproject.eu](https://galaxyproject.eu) (the "Project Website") covers news, events, the team, and other project information. It is hosted separately from the interactive Galaxy sites and is not part of the Galaxy Service; it is not covered by these Terms of Service.
