@@ -13,7 +13,7 @@ The Galaxy Freiburg Team is aware that the protection of your privacy is importa
 
 During normal usage of our services we do not auto-collect information that will personally identify you. Our webservers only store information such as the Referrer (where you came to us from), pages that you access, and dates of your visit. We may use this information in anonymised aggregates in order to generate usage statistics and to improve the usefulness of our services. Webserver logs are discarded after 24 hours.
 
-Beyond this, we will only store personal information which you provide to us voluntarily (e.g. datasets uploaded to Galaxy, histories you create, etc.), or as part of a support request.
+Beyond this, we will only store personal information that you provide to us voluntarily (e.g., datasets uploaded to Galaxy, histories you create, or support requests).
 
 The information required to register with the European Galaxy Sites and all uploaded data is used to offer, operate, secure, maintain, and improve the services provided by the Freiburg Galaxy Team. Username and email address are mandatory for registering with this service. This information is required to guarantee the legitimate use of the service, to prevent duplicate registrations abusing our quota system, and to send operational notices.
 
