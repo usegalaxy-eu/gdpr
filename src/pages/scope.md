@@ -4,7 +4,7 @@ publishedEffective: true
 title: Definitions / scope
 ---
 
-The terms and policies mentioned on this website govern the interactions between you, the End User, and us and our services.
+The terms and policies mentioned on this website govern the interactions between you, the End User, us (the Freiburg Galaxy Team) and our services.
 
 European Galaxy Sites or "the Galaxy Service", i.e. the Service, refer to the interactive Galaxy sites provided to you by the Freiburg Galaxy Team and the European Galaxy Project that link to these Terms, including but not limited to:
 
