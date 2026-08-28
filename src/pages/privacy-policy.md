@@ -19,18 +19,18 @@ The information required to register with the European Galaxy Sites and all uplo
 
 We may retain an account shell containing your username, email address, and analysis metadata after deletion of user-generated data, as described in our [Terms of Service](/gdpr/tos). We may also use anonymized or aggregated metadata derived from your use of the service, such as job counts, tool usage frequencies, and aggregate storage statistics, for service monitoring, capacity planning, and reporting, provided that the result cannot be used to identify you.
 
-For the European Galaxy Sites you can see all of the information we have stored related to your person and you have the right to correct this information at any time. For the Galaxy Service you may do this by going to [https://usegalaxy.eu](https://usegalaxy.eu), clicking on "User" → "Preferences" → "Manage Information". You also have the right to retract your consent to use personal identifiable information at any time with effect for the future. An email to the address stated below is sufficient. We never use or share the personally identifiable information provided to us in ways unrelated to the ones described above.
+For the European Galaxy Sites you can see all of the information we have stored related to your person. You have the right to correct this information at any time. For the Galaxy Service you may do this by going to [https://usegalaxy.eu](https://usegalaxy.eu), clicking on "User" → "Preferences" → "Manage Information". You also have the right to retract your consent to use personal identifiable information at any time with effect for the future. An email to the address stated below is sufficient. We never use or share the personally identifiable information provided to us in ways unrelated to the ones described above.
 
 ## Cookies
 
-A cookie is a unique identifier given to a web browser by a web server. Each time the browser requests a page from the server, this identifier is sent back to the server. The provided Galaxy service uses cookies to identify users/computers in order to maintain user sessions (e.g. to provide/maintain analysis results while you browse the website). Usage of cookies is in no way linked to any personally identifiable information about individual users. The information is also is not shared with any third party. Unless you specifically tell us, we will never know who you are, even if we do assign a cookie to your computer. Most browsers are set to automatically accept cookies. If you prefer not to receive cookies, you may set your browser to warn you before accepting cookies or you may also refuse all cookies by turning them off in your browser. However, please be aware that in case your browser does not accept cookies, the functionality of our website might be limited.
+A cookie is a unique identifier given to a web browser by a web server. Each time the browser requests a page from the server, this identifier is sent back to the server. The provided Galaxy service uses cookies to identify users/computers in order to maintain user sessions (e.g. to provide/maintain analysis results while you browse the website). Usage of cookies is in no way linked to any personally identifiable information about individual users. The information is also not shared with any third party. Unless you specifically tell us, we will never know who you are, even if we do assign a cookie to your computer. Most browsers are set to automatically accept cookies. If you prefer not to receive cookies, you may set your browser to warn you before accepting cookies or you may also refuse all cookies by turning them off in your browser. However, please be aware that in case your browser does not accept cookies, the functionality of our website might be limited.
 
 We also use community‑hosted monitoring and analytics services:
 
 - **Sentry** – a error‑tracking service that records anonymized exception data to help us improve stability and fix bugs; no personal identifiers are stored.
 - **Plausible** – a community‑hosted analytics tool that collects only aggregate page‑view metrics (IP is anonymized, no cookies) to understand usage patterns.
 
-Both services respect German data‑protection requirements (DSGVO).
+Both services respect European data‑protection requirements (GDPR).
 
 ## Links to Other Websites
 
