@@ -87,8 +87,7 @@ steps described under "Data Retention".
 ## Account Suspension and Automated Measures
 
 Your access to the Service may be revoked or suspended at any time for reasons
-deemed necessary by the operators of the Service, including users who exploit
-our systems.
+deemed necessary by the operators of the Service, including users who misuse Service.
 
 When our systems detect abusive behavior originating from your account, we may
 temporarily disable access automatically to protect the integrity and
