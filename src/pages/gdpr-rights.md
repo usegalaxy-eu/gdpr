@@ -30,7 +30,7 @@ All of the processing activities we currently do are required to use the service
 
 ## Right to Data Portability
 
-The upstream software Galaxy currently does not support this workflow, but does expose an interface that would allow us to do this. We are [working on the implementation](https://github.com/galaxyproject/galaxy/issues/6082)
+Data Portability is currently not possible. But we are [working](https://github.com/galaxyproject/galaxy/issues/6082) to make this possible in the future.
 
 ## Right to Object
 
