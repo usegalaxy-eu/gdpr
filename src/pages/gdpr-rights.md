@@ -22,7 +22,7 @@ You can do this on [https://usegalaxy.eu/user/information](https://usegalaxy.eu/
 
 ## Right to Erasure
 
-We can manually delete your account upon your request. You can also initiate this yourself by completing the steps at User > User Preferences > Delete Account after logging in to your account.
+We can manually delete your account upon your request. You can also initiate this yourself by completing the steps at User → User Preferences → Delete Account after logging in to your account.
 
 ## Right to Restrict Processing
 
