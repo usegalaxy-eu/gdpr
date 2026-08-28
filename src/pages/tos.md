@@ -6,7 +6,7 @@ title: Terms of Service
 
 These Terms of Service (the "Terms") govern your access to and use of the Galaxy
 Service provided by the Galaxy Freiburg Team and the European Galaxy Project.
-The "Galaxy Service" is defined on our [Definitions / Scope](/gdpr/scope) page
+The "Galaxy Service" ("Service") is defined on our [Definitions / Scope](/gdpr/scope) page
 and comprises the interactive European Galaxy Sites at `usegalaxy.eu` and other
 `*.usegalaxy.eu` sites that link to these Terms. It does not include the Project
 Website at `galaxyproject.eu`, which is governed separately. By using the
