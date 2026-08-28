@@ -18,7 +18,7 @@ We have logs containing IP addresses, but these logs are destroyed after 24 hour
 
 ## Right to Rectification of Personal Information
 
-You can do this on [https://usegalaxy.eu/user/information](https://usegalaxy.eu/user/information)
+You can do this on [https://usegalaxy.eu/user/information](https://usegalaxy.eu/user/information).
 
 ## Right to Erasure
 
