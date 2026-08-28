@@ -7,7 +7,7 @@ title: Privacy Policy
 
 ## Introduction
 
-The Galaxy Freiburg Team is aware that the protection of your privacy is important when using our services European Galaxy Sites or UseGalaxy Site. We provide this statement to explain our information practices and the choices you can make about the way your information is collected and used. The amount and type of information received by us depends on how you use our website.
+The Galaxy Freiburg Team is aware that the protection of your privacy is important when using our service. We provide this statement to explain our information practices and the choices you can make about the way your information is collected and used. The amount and type of information received by us depends on how you use our website.
 
 ## Information collected and use of information
 
