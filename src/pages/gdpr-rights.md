@@ -3,7 +3,7 @@ layout: ../layouts/History.astro
 title: User Rights under the GDPR
 ---
 
-And how to exercise them in the context of the Galaxy Service provided by the Galaxy Freiburg Team and the European Galaxy Community.
+This section describes how your user rights are exercised according the GDPR. This belongs to your rights in the context of Galaxy Service provided by the Galaxy Freiburg Team and the European Galaxy Community.
 
 
 ## Right to be Informed
