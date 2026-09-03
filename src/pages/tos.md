@@ -46,7 +46,7 @@ publicly accessible and may be indexed or cached by third parties. Ensure you
 have the right to share such data before publishing it.
 
 The Service offers thousands of tools, many of which are contributed and
-maintained by third parties. The operators do not warrant the correctness or
+maintained by third parties. The service does not warrant the correctness or
 fitness of any individual third-party tool. You are responsible for the data you
 bring into the Service and for ensuring that your use of the Service complies
 with applicable law and with these Terms.
@@ -56,7 +56,7 @@ with applicable law and with these Terms.
 
 You may register an account with the Service. Your registration data is used so
 you may persistently store data on the Service and use advanced Galaxy features
-such as sharing and workflows. The operators of the Service will not provide
+such as sharing and workflows. The Service will not provide
 your registration data to any third party, unless required by law.
 
 You are responsible for safeguarding the credentials associated with your
@@ -87,7 +87,7 @@ steps described under "Data Retention".
 ## Account Suspension and Automated Measures
 
 Your access to the Service may be revoked or suspended at any time for reasons
-deemed necessary by the operators of the Service, including users who misuse Service.
+deemed necessary by responsible persons of the Service, including users who misuse Service.
 
 When our systems detect abusive behavior originating from your account, we may
 temporarily disable access automatically to protect the integrity and
@@ -114,7 +114,7 @@ intended use, legal ownership of, or any licensing or other legal restrictions
 imposed on the data being processed.
 
 Usegalaxy.eu is hosted out of an ISO 27001 certified data center operated by
-[University of Freiburg IT Services](https://www.rz.uni-freiburg.de/en?set_language=en), and the operators do their due diligence to ensure information security
+[University of Freiburg IT Services](https://www.rz.uni-freiburg.de/en?set_language=en), and the members of the Freiburg Galaxy Group do their due diligence to ensure information security
 and data protection. You, the end user, bear the full responsibility for the
 implications of using the Service.
 
@@ -146,13 +146,13 @@ These Terms" below.
 ## License to User Data
 
 By uploading data to or generating data with the Service, you grant the
-operators a non-exclusive, worldwide, royalty-free license to store, process,
+Service a non-exclusive, worldwide, royalty-free license to store, process,
 back up, and (where you choose to share or publish it) display that data solely
 for the purpose of operating, maintaining, and improving the Service. This
 license is limited to operational use and does not transfer ownership of your
-data to the operators.
+data to the Service.
 
-The operators may also use anonymized or aggregated metadata derived from your
+The Service may also use anonymized or aggregated metadata derived from your
 use of the Service (such as job counts, tool usage frequencies, and aggregate
 storage statistics) for service monitoring, capacity planning, and reporting,
 provided that the result cannot be used to identify you.
@@ -160,11 +160,10 @@ provided that the result cannot be used to identify you.
 
 ## Service Availability
 
-The Service is provided on a best-effort basis. The operators do not guarantee
+The Service is provided on a best-effort basis. It does not guarantee
 uninterrupted or error-free availability. The Service, or any feature of it, may
-be modified, suspended, or discontinued at any time without notice. The
-operators accept no responsibility for loss of data or access resulting from
-such modifications, suspensions, or discontinuations; you are encouraged to
+be modified, suspended, or discontinued at any time without notice. No responsibility for loss of data or access resulting from
+such modifications, suspensions, or discontinuations is accepted; you are encouraged to
 maintain your own backups of important data.
 
 
