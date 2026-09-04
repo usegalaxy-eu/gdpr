@@ -5,7 +5,7 @@ title: Terms of Service
 ---
 
 These Terms of Service (the "Terms") govern your access to and use of the Galaxy
-Service provided by the Galaxy Freiburg Team and the European Galaxy Project.
+Service provided by the Freiburg Galaxy Team and the European Galaxy Project.
 The "Galaxy Service" ("Service") is defined on our [Definitions / Scope](/gdpr/scope) page
 and comprises the interactive European Galaxy Sites at `usegalaxy.eu` and other
 `*.usegalaxy.eu` sites that link to these Terms. It does not include the Project
@@ -114,7 +114,7 @@ intended use, legal ownership of, or any licensing or other legal restrictions
 imposed on the data being processed.
 
 Usegalaxy.eu is hosted out of an ISO 27001 certified data center operated by
-[University of Freiburg IT Services](https://www.rz.uni-freiburg.de/en?set_language=en), and the members of the Freiburg Galaxy Group do their due diligence to ensure information security
+[University of Freiburg IT Services](https://www.rz.uni-freiburg.de/en?set_language=en), and the members of the Freiburg Galaxy Team do their due diligence to ensure information security
 and data protection. You, the end user, bear the full responsibility for the
 implications of using the Service.
 
