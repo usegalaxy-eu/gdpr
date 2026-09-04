@@ -3,7 +3,7 @@ layout: ../layouts/History.astro
 title: User Rights under the GDPR
 ---
 
-And how to exercise them in the context of the Galaxy Service provided by the Galaxy Freiburg Team and the European Galaxy Community.
+This section describes how your user rights are exercised according the GDPR. This belongs to your rights in the context of Galaxy Service provided by the Freiburg Galaxy Team and the European Galaxy Community.
 
 
 ## Right to be Informed
@@ -18,19 +18,19 @@ We have logs containing IP addresses, but these logs are destroyed after 24 hour
 
 ## Right to Rectification of Personal Information
 
-You can do this on [https://usegalaxy.eu/user/information](https://usegalaxy.eu/user/information)
+You can do this on [https://usegalaxy.eu/user/information](https://usegalaxy.eu/user/information).
 
 ## Right to Erasure
 
-We can manually delete your account upon your request. You can also initiate this yourself by completing the steps at User > User Preferences > Delete Account after logging in to your account.
+We can manually delete your account upon your request. You can also initiate this yourself by completing the steps at User → User Preferences → Delete Account after logging in to your account.
 
 ## Right to Restrict Processing
 
-All of the processing activities we currently do are required to use the service. We do not transmit any PII to third parties.
+All of the processing activities we currently do are required to use the service. We do not transmit any Personally Identifiable Information (PII) to third parties.
 
 ## Right to Data Portability
 
-The upstream software Galaxy currently does not support this workflow, but does expose an interface that would allow us to do this. We are [working on the implementation](https://github.com/galaxyproject/galaxy/issues/6082)
+Data Portability is currently not possible. But we are [working](https://github.com/galaxyproject/galaxy/issues/6082) to make this possible in the future.
 
 ## Right to Object
 
@@ -39,4 +39,6 @@ If we do processing activities in the future that do affect PII, we will inform 
 
 ## Right to Not be Subject to Automated Decision-making Including Profiling
 
-We do not profile our users, nor do any form of automated decision making based on personal data.
+We do not profile our users.
+
+Our systems may temporarily disable access automatically when they detect abusive behavior, in order to protect the integrity and availability of the Service. This temporary protective measure is based on our legitimate interests in preventing abuse and securing the Service ([GDPR Article 6(1)(f)](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX%3A02016R0679-20160504)). You may request human review by contacting [contact@usegalaxy.eu](mailto:contact@usegalaxy.eu). We will not make a final account termination decision solely by automated means. See our [Terms of Service](/gdpr/tos) for details.
