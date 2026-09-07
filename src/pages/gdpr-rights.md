@@ -26,7 +26,7 @@ We can manually delete your account upon your request. You can also initiate thi
 
 ## Right to Restrict Processing
 
-All of the processing activities we currently do are required to use the service. We do not transmit any Personally Identifiable Information (PII) to third parties.
+All of the processing activities we currently do are required to use the Service. We do not transmit any Personally Identifiable Information (PII) to third parties.
 
 ## Right to Data Portability
 
@@ -34,7 +34,7 @@ Data Portability is currently not possible. But we are [working](https://github.
 
 ## Right to Object
 
-All of the processing activities we currently do are required to use the service. We do not transmit any PII to third parties.
+All of the processing activities we currently do are required to use the Service. We do not transmit any PII to third parties.
 If we do processing activities in the future that do affect PII, we will inform you in advance and permit you to opt-out.
 
 ## Right to Not be Subject to Automated Decision-making Including Profiling

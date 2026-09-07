@@ -46,7 +46,7 @@ publicly accessible and may be indexed or cached by third parties. Ensure you
 have the right to share such data before publishing it.
 
 The Service offers thousands of tools, many of which are contributed and
-maintained by third parties. The service does not warrant the correctness or
+maintained by third parties. The Service does not warrant the correctness or
 fitness of any individual third-party tool. You are responsible for the data you
 bring into the Service and for ensuring that your use of the Service complies
 with applicable law and with these Terms.
@@ -62,7 +62,7 @@ your registration data to any third party, unless required by law.
 You are responsible for safeguarding the credentials associated with your
 account and for all activity that occurs under your account. You must notify us
 promptly at [contact@usegalaxy.eu](mailto:contact@usegalaxy.eu) if you become aware of any unauthorized use of your account
-or any other security breach. We may suspend or terminate access  to your account following a
+or any other security breach. We may suspend or terminate access to your account following a
 suspected compromise of your account.
 
 Your access to the Service is provided under the condition that you abide by any
@@ -71,7 +71,7 @@ placed on the public Service. Attempts to subvert these limits by creating
 multiple accounts or through any other method may result in termination of all
 associated accounts.
 
-Following the principle of sustainable infrastructure and economic data usage and the dedication of Galaxy Europe as analyzing platform, you are responsible for further processing and transferring data to suitable repositories to foster archiving and publishing according the FAIR principles. For options please refer to https://galaxyproject.org/eu/storage/
+Because Galaxy Europe provides sustainable infrastructure for shared data usage, you are responsible for transferring data and results you wish to archive or publish to suitable public repositories, in line with the FAIR principles. For options please refer to https://galaxyproject.org/eu/storage/
 
 You must keep your registered email address valid and active. We use it, together
 with in-Galaxy notifications shown when you next log in to the Service, for
@@ -81,7 +81,7 @@ filtered, or marked as spam. For this reason the in-Galaxy notification is the
 authoritative channel, and we recommend that you log in to the Service
 periodically to review any notices. If email messages to your address bounce or
 go undelivered, we will additionally treat the address as unreachable and proceed with the
-steps described under "Data Retention".
+steps described under "Data Retention". To update your email address, please go to User → User Preferences after logging in to your account.
 
 
 ## Account Suspension and Automated Measures
@@ -125,7 +125,7 @@ We limit storage of personal data and user-generated data (uploaded datasets,
 histories, and derived results) to what is necessary for the Service, in
 accordance with Article 5(1)(e) of the GDPR (storage limitation).
 
-- If you do not log in for **12 months**, we will attempt to notify you via your
+- If you do not log in to the Service for **12 months**, we will attempt to notify you via your
   registered email address and via an in-Galaxy notification shown when you next
   log in to the Service. If you do not log in within **one month** after we send
   the email notice or create the in-Galaxy notice, whichever occurs first, your
@@ -181,7 +181,7 @@ any particular purpose.
 ## Limitation of Liability
 
 Under no circumstances and under no legal theory, whether in tort (including
-negligence), contract, or otherwise, shall Universität Freiburg
+negligence), contract, or otherwise, shall the University of Freiburg
 or any other entity which provides resources for the Service be
 liable to anyone for any indirect, special, incidental, or consequential damages
 of any character arising as a result of the use of this Service, including,
