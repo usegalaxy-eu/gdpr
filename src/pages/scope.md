@@ -19,7 +19,7 @@ as well as further *.usegalaxy.eu websites.
 The Terms of Service and the policies referenced there apply to the European Galaxy Sites as defined above.
 
 "Galaxy Service" run by the Freiburg Galaxy Team is an analyzing platform.
-Workflows and analysis pipes can be developed, shared, and transferred to sustainable repositories for archiving and publication.
+Data can be analysed and scientific analysis workflows developed, with both data and workflows shared and deposited in sustainable repositories for long-term archiving and publication.
 
 The European Galaxy Project website at [https://galaxyproject.eu](https://galaxyproject.eu) (the "Project Website") covers news, events,
 the Freiburg Galaxy Team, and other project information. It is hosted separately from the interactive Galaxy sites and is not part of the Galaxy Service;
