@@ -38,7 +38,7 @@ This Privacy Statement only covers the Galaxy Service provided by the Freiburg G
 
 ## Changes
 
-We reserve the right to amend or correct this Privacy Statement at any time. The revised statement will be posted on the website and will only apply to data collected after posting the revised statement.
+We reserve the right to amend or correct this Privacy Statement at any time. The revised statement will be posted on the website and will only apply to data collected after the effective date of the revised statement.
 
 ## How to Contact Us
 
